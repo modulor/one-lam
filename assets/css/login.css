@@ -1,12 +1,28 @@
+h1,
+h2,
+h3 {
+  font-family: "adineue PRO Bold" !important;
+}
+
 main {
   background-image: url("../images/bg/bg-home-desktop.jpeg");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
+  padding-top: 110px;
+}
+
+.event-title {
+  text-align: center;
+}
+
+.event-title h1 {
+  font-size: 68px;
 }
 
 @media (max-width: 575.98px) {
   main {
+    padding-top: 140px;
     background-image: url("../images/bg/bg-home-mobile.jpeg");
   }
 }
