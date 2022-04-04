@@ -23,9 +23,12 @@
                 <h2>CONFERENCE</h2>
                 <h3>POWER DEL CARMEN</h3>
               </div>
+              <?php if (isset($error_message)) : ?>
+                <p class="text-danger text-center m-0 p-0"><?php echo $error_message ?></p>
+              <?php endif; ?>
               <form action="<?php echo base_url('login') ?>" method="post">
                 <div class="form-group mb-4">
-                  <input type="text" class="form-control form-control-email-alias" placeholder="Escribe tu correo o alias">
+                  <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Escribe tu correo o alias">
                 </div>
                 <p class="text-end">
                   <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
@@ -37,6 +40,7 @@
                 <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
                 <a href="<?php echo base_url('register') ?>" class="link-register">Regístrate ahora</a>
               </p>
+
             </div>
             <img src="<?php echo base_url('assets/images/login-yellow-form.png') ?>" alt="home yellow form" class="card-img-bottom">
           </div>
