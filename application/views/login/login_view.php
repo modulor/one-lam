@@ -23,6 +23,9 @@
                 <h2>CONFERENCE</h2>
                 <h3>POWER DEL CARMEN</h3>
               </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-email-alias" placeholder="Escribe tu correo o alias">
+              </div>
             </div>
           </div>
         </div>
