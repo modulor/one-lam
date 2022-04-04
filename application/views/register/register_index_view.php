@@ -20,18 +20,19 @@
             <div class="card-body">
               <h1>Registro</h1>
               <p class="mb-5">Realiza el registro de tu perfil<br>y personaliza tu Avatar</p>
+              <div class="text-danger text-center"><?php echo validation_errors() ?></div>
               <form action="<?php echo base_url('register') ?>" method="post">
                 <div class="mb-5">
                   <label for="email">Correo</label>
-                  <input type="email" name="email" class="form-control">
+                  <input type="email" name="email" class="form-control" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
                 </div>
                 <div class="mb-5">
                   <label for="alias">Crea tu Alias</label>
-                  <input type="text" name="alias" class="form-control">
+                  <input type="text" name="alias" class="form-control" <?php echo isset($_POST['alias']) ? $_POST['alias'] : '' ?>>
                 </div>
                 <div class="mb-5 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">
+                  <input type="checkbox" class="form-check-input" name="accept_terms_and_conditions">
+                  <label class="form-check-label" for="accept_terms_and_conditions">
                     <a href="<?php echo base_url('terms-and-conditions.pdf') ?>" class="terms-and-conditions-link" target="_blank">
                       Acepto los términos y condiciones
                     </a>

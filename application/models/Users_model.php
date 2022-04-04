@@ -13,4 +13,9 @@ class Users_model extends CI_Model
   {
     return $this->db->where('alias', $alias)->get($this->table)->row();
   }
+
+  public function create($data)
+  {
+    $this->db->insert($this->table, $data);
+  }
 }
