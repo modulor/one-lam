@@ -82,6 +82,6 @@ class Register extends CI_Controller
 
   private function go_to_avatar_creation()
   {
-    redirect(base_url('avatar/choose_body'), 'refresh');
+    redirect(base_url('avatar/customize'), 'refresh');
   }
 }

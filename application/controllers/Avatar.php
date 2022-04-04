@@ -2,7 +2,7 @@
 
 class Avatar extends CI_Controller
 {
-  public function choose_body()
+  public function customize()
   {
     echo "Elige un cuerpo...";
   }
