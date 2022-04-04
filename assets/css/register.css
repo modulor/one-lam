@@ -1,18 +1,3 @@
-body {
-  font-family: "AdihausDIN" !important;
-  font-size: 1.4em;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "adineue PRO Bold" !important;
-}
-
-h1 {
-  font-size: 2em;
-}
-
 main {
   background-image: url("../images/bg/bg-register-desktop.jpeg");
   height: 100vh;

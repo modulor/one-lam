@@ -1,0 +1,23 @@
+.img-form {
+  position: absolute;
+  top: -70px;
+  left: 36%;
+  width: 145px;
+  z-index: 99;
+}
+
+.customize-area {
+  position: absolute;
+  padding: 20px 10px;
+  z-index: 9999;
+}
+
+@media (max-width: 575.98px) {
+  .img-form {
+    position: absolute;
+    top: -60px;
+    left: 5%;
+    width: 145px;
+    z-index: 99;
+  }
+}

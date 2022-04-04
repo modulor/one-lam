@@ -8,6 +8,7 @@
   <title>ONE LAM CONFERENCE - POWER DEL CARMEN</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/fonts.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/css/general.css') ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/login.css') ?>">
 </head>
 
