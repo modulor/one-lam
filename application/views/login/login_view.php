@@ -23,10 +23,22 @@
                 <h2>CONFERENCE</h2>
                 <h3>POWER DEL CARMEN</h3>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control form-control-email-alias" placeholder="Escribe tu correo o alias">
-              </div>
+              <form action="<?php echo base_url('login') ?>" method="post">
+                <div class="form-group mb-4">
+                  <input type="text" class="form-control form-control-email-alias" placeholder="Escribe tu correo o alias">
+                </div>
+                <p class="text-end">
+                  <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                  <button type="submit" class="btn btn-link btn-login ms-2">Inicia sesión</button>
+                </p>
+              </form>
+              <p class="text-center">&iquest;No tienes cuenta?</p>
+              <p class="text-end">
+                <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                <a href="<?php echo base_url('register') ?>" class="link-register">Regístrate ahora</a>
+              </p>
             </div>
+            <img src="<?php echo base_url('assets/images/login-yellow-form.png') ?>" alt="home yellow form" class="card-img-bottom">
           </div>
         </div>
       </div>
