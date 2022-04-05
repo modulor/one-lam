@@ -15,7 +15,7 @@ class Login extends CI_Controller
   public function index()
   {
     if ($this->is_user_login())
-      redirect(base_url('dashboard'), 'refresh');
+      redirect(base_url('landing'), 'refresh');
 
     if (isset($_POST['email_alias'])) {
       $this->try_to_login();
