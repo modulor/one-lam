@@ -76,6 +76,15 @@
       $(`#avatar_step_${nextStep}`).removeClass('d-none');
 
       actionsByStepNumber(nextStep);
+      updateProgressCircles(currentStep, nextStep);
+    }
+
+    function updateProgressCircles(currentStep, nextStep) {
+      $(`#circle-step-${currentStep}`).removeClass('fa-solid');
+      $(`#circle-step-${currentStep}`).addClass('fa-regular');
+
+      $(`#circle-step-${nextStep}`).removeClass('fa-regular');
+      $(`#circle-step-${nextStep}`).addClass('fa-solid');
     }
 
     function actionsByStepNumber(stepNumber) {
