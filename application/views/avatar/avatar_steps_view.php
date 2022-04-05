@@ -87,11 +87,11 @@
   </div>
   <div class="row">
     <div class="col-12 text-center">
-      <img id="avatar_background_image_1" name="avatar_background_image" onclick="chooseProperty('background', 1);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.png') ?>" alt="avatar background" class="avatar-mini-options img-clicked">
-      <img id="avatar_background_image_2" name="avatar_background_image" onclick="chooseProperty('background', 2);" src="<?php echo base_url('assets/images/avatar/background/background-150px-2.png') ?>" alt="avatar background" class="avatar-mini-options">
-      <img id="avatar_background_image_3" name="avatar_background_image" onclick="chooseProperty('background', 3);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.png') ?>" alt="avatar background" class="avatar-mini-options">
-      <img id="avatar_background_image_4" name="avatar_background_image" onclick="chooseProperty('background', 4);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.png') ?>" alt="avatar background" class="avatar-mini-options">
-      <img id="avatar_background_image_5" name="avatar_background_image" onclick="chooseProperty('background', 5);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.png') ?>" alt="avatar background" class="avatar-mini-options-last">
+      <img id="avatar_background_image_1" name="avatar_background_image" onclick="chooseProperty('background', 1);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.jpeg') ?>" alt="avatar background" class="avatar-mini-options img-clicked">
+      <img id="avatar_background_image_2" name="avatar_background_image" onclick="chooseProperty('background', 2);" src="<?php echo base_url('assets/images/avatar/background/background-150px-2.jpeg') ?>" alt="avatar background" class="avatar-mini-options">
+      <img id="avatar_background_image_3" name="avatar_background_image" onclick="chooseProperty('background', 3);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.jpeg') ?>" alt="avatar background" class="avatar-mini-options">
+      <img id="avatar_background_image_4" name="avatar_background_image" onclick="chooseProperty('background', 4);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.jpeg') ?>" alt="avatar background" class="avatar-mini-options">
+      <img id="avatar_background_image_5" name="avatar_background_image" onclick="chooseProperty('background', 5);" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.jpeg') ?>" alt="avatar background" class="avatar-mini-options-last">
     </div>
   </div>
 </div>

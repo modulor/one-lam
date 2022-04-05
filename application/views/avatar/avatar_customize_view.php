@@ -137,7 +137,8 @@
 
     function setAllPropertyPreview(property, propertyNumber) {
       const path = `assets/images/avatar/${property}/`;
-      const propertyImage = `${BASE_URL}${path}${property}-856px-${propertyNumber}.png`
+      const extension = property === 'background' ? 'jpeg' : 'png';
+      const propertyImage = `${BASE_URL}${path}${property}-856px-${propertyNumber}.${extension}`;
       $(`.avatar-${property}-selected`).attr('src', propertyImage);
     }
   </script>

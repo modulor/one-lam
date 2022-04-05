@@ -18,8 +18,8 @@
 }
 
 .avatar-preview {
-  width: 304px;
-  height: 304px;
+  width: 306px;
+  height: 306px;
   border: 2px solid black;
   margin: 0 auto;
 }
@@ -41,7 +41,7 @@
 .avatar-badge-selected,
 .avatar-background-selected {
   position: absolute;
-  top: 195px;
+  top: 197px;
   left: 570px;
   width: 300px;
   height: 300px;
@@ -62,7 +62,7 @@
   .avatar-badge-selected,
   .avatar-background-selected {
     position: absolute;
-    top: 195px;
+    top: 197px;
     left: 45px;
     width: 300px;
     height: 300px;
