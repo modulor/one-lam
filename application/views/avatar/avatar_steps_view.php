@@ -25,7 +25,7 @@
   <div class="row mb-5">
     <div class="col-12 text-center">
       <img id="avatar_preview_step_2" class="avatar-preview" src="">
-      <img id="avatar_eyes_selected_step_2" src="<?php echo base_url('assets/images/avatar/eyes/eyes-856px-1.png') ?>" alt="eyes selected">
+      <img class="avatar-eyes-selected" src="<?php echo base_url('assets/images/avatar/eyes/eyes-856px-1.png') ?>" alt="eyes selected">
     </div>
   </div>
   <div class="row">

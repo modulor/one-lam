@@ -114,7 +114,7 @@
     function setAllEyesPreview(eyesNumber) {
       const path = `assets/images/avatar/eyes/`;
       const eyesImage = `${BASE_URL}${path}eyes-856px-${eyesNumber}.png`;
-      $("#avatar_eyes_selected_step_2").attr('src', eyesImage);
+      $(".avatar-eyes-selected").attr('src', eyesImage);
     }
   </script>
 
