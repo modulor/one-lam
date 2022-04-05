@@ -36,7 +36,8 @@
 }
 
 .avatar-body-selected,
-.avatar-eyes-selected {
+.avatar-eyes-selected,
+.avatar-accessory-selected {
   position: absolute;
   top: 195px;
   left: 570px;
@@ -54,7 +55,8 @@
   }
 
   .avatar-body-selected,
-  .avatar-eyes-selected {
+  .avatar-eyes-selected,
+  .avatar-accessory-selected {
     position: absolute;
     top: 195px;
     left: 45px;

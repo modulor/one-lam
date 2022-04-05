@@ -98,18 +98,41 @@
           actionsForStepTwo();
           break;
 
+        case 3:
+          actionsForStepThree();
+          break;
+
+        case 4:
+          actionsForStepFour();
+          break;
+
+        case 5:
+          actionsForStepFive();
+          break;
+
         default:
           break;
       }
     }
 
     function actionsForStepTwo() {
-      setAllBodyPreview();
-      $('#avatar_instructions').html('Elige un par de ojos')
+      $('#avatar_instructions').html('Elige un par de ojos');
     }
 
-    function setAllBodyPreview() {
-      const bodyNumber = $('#avatar_body').val();
+    function actionsForStepThree() {
+
+      $('#avatar_instructions').html('Elige un accesorio');
+    }
+
+    function actionsForStepFour() {
+      console.log('actionsForStepFour...');
+    }
+
+    function actionsForStepFive() {
+      console.log('actionsForStepFive...');
+    }
+
+    function setAllBodyPreview(bodyNumber) {
       const path = `assets/images/avatar/body/`;
       const bodyImage = `${BASE_URL}${path}body-856px-${bodyNumber}.png`
       $('.avatar-body-selected').attr('src', bodyImage);
