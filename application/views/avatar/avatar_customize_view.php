@@ -54,6 +54,7 @@
       $(`#avatar_${property}`).val(propertyNumber);
       removeBorderToAllProperties(property);
       addBorderToProperty(property, propertyNumber);
+      setAllPropertyPreview(property, propertyNumber);
       activeButtonNext();
     }
 
@@ -133,22 +134,10 @@
       console.log('actionsForStepFive...');
     }
 
-    function setAllBodyPreview(bodyNumber) {
-      const path = `assets/images/avatar/body/`;
-      const bodyImage = `${BASE_URL}${path}body-856px-${bodyNumber}.png`
-      $('.avatar-body-selected').attr('src', bodyImage);
-    }
-
-    function setAllEyesPreview(eyesNumber) {
-      const path = `assets/images/avatar/eyes/`;
-      const eyesImage = `${BASE_URL}${path}eyes-856px-${eyesNumber}.png`;
-      $(".avatar-eyes-selected").attr('src', eyesImage);
-    }
-
-    function setAllAccessoryPreview(accessoryNumber) {
-      const path = `assets/images/avatar/accessory/`;
-      const accessoryImage = `${BASE_URL}${path}accessory-856px-${accessoryNumber}.png`;
-      $(".avatar-accessory-selected").attr('src', accessoryImage);
+    function setAllPropertyPreview(property, propertyNumber) {
+      const path = `assets/images/avatar/${property}/`;
+      const propertyImage = `${BASE_URL}${path}${property}-856px-${propertyNumber}.png`
+      $(`.avatar-${property}-selected`).attr('src', propertyImage);
     }
   </script>
 
