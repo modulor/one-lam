@@ -41,6 +41,7 @@
             <input type="hidden" id="avatar_body" value="">
             <input type="hidden" id="avatar_eyes" value="1">
             <input type="hidden" id="avatar_accessory" value="1">
+            <input type="hidden" id="avatar_badge" value="1">
           </div>
         </div>
       </div>
@@ -122,12 +123,11 @@
     }
 
     function actionsForStepThree() {
-
       $('#avatar_instructions').html('Elige un accesorio');
     }
 
     function actionsForStepFour() {
-      console.log('actionsForStepFour...');
+      $('#avatar_instructions').html('Elige una insignia');
     }
 
     function actionsForStepFive() {
