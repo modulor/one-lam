@@ -17,9 +17,18 @@ class Avatar extends CI_Controller
 
   public function create()
   {
-    echo "CREATE avatar";
-    echo "<pre>";
-    print_r($this->input->post());
-    echo "</pre>";
+    $this->load->model('Users_avatars_model');
+
+    $data = array(
+      'body' => $_POST['avatar_body'],
+      'eyes' => $_POST['avatar_eyes'],
+      'accessory' => $_POST['avatar_accessory'],
+      'badge' => $_POST['avatar_badge'],
+      'background' => $_POST['avatar_background'],
+      'users_id' => $this->session->userdata('id'),
+      'created_at' => date('Y-m-d H:i:s'),
+    );
+
+    $this->Users_avatars_model->create($data);
   }
 }
