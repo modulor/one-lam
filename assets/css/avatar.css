@@ -1,10 +1,48 @@
-.customize-area {
+.customize-area,
+.col-avatar-step-success {
   padding: 50px 10px;
+  height: 750px;
+  max-height: 750px;
+}
+
+.col-avatar-step-1,
+.col-avatar-step-2,
+.col-avatar-step-3,
+.col-avatar-step-4,
+.col-avatar-step-5,
+.col-avatar-step-success {
   background-repeat: no-repeat;
   background-position: 0 -70px;
   background-size: 150px;
-  height: 730px;
-  max-height: 730px;
+}
+
+.col-avatar-step-1 {
+  background-image: url("../images/avatar/avatar-form-step-1.png");
+}
+
+.col-avatar-step-2 {
+  background-position: 0 540px;
+  background-image: url("../images/avatar/avatar-form-step-2.png");
+}
+
+.col-avatar-step-3 {
+  background-position: 220px -105px;
+  background-image: url("../images/avatar/avatar-form-step-3.png");
+}
+
+.col-avatar-step-4 {
+  background-position: 220px 670px;
+  background-image: url("../images/avatar/avatar-form-step-4.png");
+}
+
+.col-avatar-step-5 {
+  background-position: 220px -40px;
+  background-image: url("../images/avatar/avatar-form-step-5.png");
+}
+
+.col-avatar-step-success {
+  background-position: 220px -56px;
+  background-image: url("../images/avatar/avatar-form-step-success.png");
 }
 
 .btn-next,
@@ -66,5 +104,11 @@
     left: 45px;
     width: 300px;
     height: 300px;
+  }
+
+  .customize-area {
+    padding: 50px 10px;
+    height: 730px;
+    max-height: 730px;
   }
 }

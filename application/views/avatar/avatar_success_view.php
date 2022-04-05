@@ -18,7 +18,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 offset-md-4">
-          <div class="customize-area" style="background-image: url('<?php echo base_url('assets/images/avatar/avatar-choose-body-form.png') ?>');">
+          <div class="col-avatar-step-success">
             <h1>&iexcl;Creaste tu<br>Avatar con éxito,<br><?php echo $this->session->userdata('alias') ?>!</h1>
 
             <div class="row mb-5">

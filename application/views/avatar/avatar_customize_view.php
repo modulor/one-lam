@@ -17,8 +17,8 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 offset-md-4">
-          <div class="customize-area" style="background-image: url('<?php echo base_url('assets/images/avatar/avatar-choose-body-form.png') ?>');">
+        <div id="col-avatar-steps" class="col-md-4 offset-md-4 col-avatar-step-1">
+          <div class="customize-area">
             <h1>Personaliza<br>tu Avatar</h1>
             <p id="avatar_instructions">Elige tu cuerpo</p>
             <?php
@@ -127,18 +127,26 @@
 
     function actionsForStepTwo() {
       $('#avatar_instructions').html('Elige un par de ojos');
+      $('#col-avatar-steps').removeClass('col-avatar-step-1');
+      $('#col-avatar-steps').addClass('col-avatar-step-2');
     }
 
     function actionsForStepThree() {
       $('#avatar_instructions').html('Elige un accesorio');
+      $('#col-avatar-steps').removeClass('col-avatar-step-2');
+      $('#col-avatar-steps').addClass('col-avatar-step-3');
     }
 
     function actionsForStepFour() {
       $('#avatar_instructions').html('Elige una insignia');
+      $('#col-avatar-steps').removeClass('col-avatar-step-3');
+      $('#col-avatar-steps').addClass('col-avatar-step-4');
     }
 
     function actionsForStepFive() {
       $('#avatar_instructions').html('Elige un fondo');
+      $('#col-avatar-steps').removeClass('col-avatar-step-4');
+      $('#col-avatar-steps').addClass('col-avatar-step-5');
     }
 
     function setAllPropertyPreview(property, propertyNumber) {
