@@ -53,6 +53,7 @@
     z-index: 99;
   }
 
+  .avatar-body-selected,
   .avatar-eyes-selected {
     position: absolute;
     top: 195px;
