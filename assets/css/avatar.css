@@ -24,6 +24,25 @@
   margin: 0 auto;
 }
 
+.avatar-mini-options,
+.avatar-mini-options-last {
+  width: 60px;
+  margin-right: 5px;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.avatar-mini-options {
+  margin-right: 0;
+}
+
+#avatar_eyes_selected_step_2 {
+  position: absolute;
+  top: 195px;
+  left: 570px;
+  width: 300px;
+  height: 300px;
+}
+
 @media (max-width: 575.98px) {
   .img-form {
     position: absolute;
@@ -31,5 +50,13 @@
     left: 5%;
     width: 145px;
     z-index: 99;
+  }
+
+  #avatar_eyes_selected_step_2 {
+    position: absolute;
+    top: 195px;
+    left: 45px;
+    width: 300px;
+    height: 300px;
   }
 }

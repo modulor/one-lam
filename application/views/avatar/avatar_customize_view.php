@@ -9,8 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="<?php echo base_url('assets/css/fonts.css') ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/general.css') ?>">
   <link rel="stylesheet" href="<?php echo base_url('assets/css/avatar.css') ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/css/general.css') ?>">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <div class="col-md-4 offset-md-4">
           <div class="customize-area" style="background-image: url('<?php echo base_url('assets/images/avatar/avatar-choose-body-form.png') ?>');">
             <h1>Personaliza<br>tu Avatar</h1>
-            <p>Elige tu cuerpo</p>
+            <p id="avatar_instructions">Elige tu cuerpo</p>
             <?php
             $this->load->view('avatar/avatar_steps_view');
             ?>
@@ -39,6 +39,7 @@
             </div>
             <input type="hidden" id="current_step" value="1">
             <input type="hidden" id="avatar_body" value="">
+            <input type="hidden" id="avatar_eyes" value="1">
           </div>
         </div>
       </div>
@@ -79,6 +80,10 @@
       updateProgressCircles(currentStep, nextStep);
     }
 
+    function disableButtonNext() {
+      $('#btn-next').attr('disabled', true);
+    }
+
     function updateProgressCircles(currentStep, nextStep) {
       $(`#circle-step-${currentStep}`).removeClass('fa-solid');
       $(`#circle-step-${currentStep}`).addClass('fa-regular');
@@ -100,8 +105,16 @@
 
     function actionsForStepTwo() {
       const bodyNumber = $('#avatar_body').val();
-      const bodyImage = `${BASE_URL}assets/images/avatar/body/body-856px-${bodyNumber}.png`
+      const path = `assets/images/avatar/body/`;
+      const bodyImage = `${BASE_URL}${path}body-856px-${bodyNumber}.png`
       $('#avatar_preview_step_2').attr('src', bodyImage)
+      $('#avatar_instructions').html('Elige un par de ojos')
+    }
+
+    function setAllEyesPreview(eyesNumber) {
+      const path = `assets/images/avatar/eyes/`;
+      const eyesImage = `${BASE_URL}${path}eyes-856px-${eyesNumber}.png`;
+      $("#avatar_eyes_selected_step_2").attr('src', eyesImage);
     }
   </script>
 

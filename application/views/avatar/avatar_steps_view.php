@@ -22,9 +22,19 @@
               </div> -->
 </div>
 <div id="avatar_step_2" class="d-none">
-  <div class="row">
+  <div class="row mb-5">
     <div class="col-12 text-center">
       <img id="avatar_preview_step_2" class="avatar-preview" src="">
+      <img id="avatar_eyes_selected_step_2" src="<?php echo base_url('assets/images/avatar/eyes/eyes-856px-1.png') ?>" alt="eyes selected">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <img id="avatar_eyes_image_1" name="avatar_eyes_image" onclick="chooseProperty('eyes', 1); setAllEyesPreview(1);" src="<?php echo base_url('assets/images/avatar/eyes/eyes-150px-1.png') ?>" alt="avatar eyes" class="avatar-mini-options img-clicked">
+      <img id="avatar_eyes_image_2" name="avatar_eyes_image" onclick="chooseProperty('eyes', 2); setAllEyesPreview(2);" src="<?php echo base_url('assets/images/avatar/eyes/eyes-150px-1.png') ?>" alt="avatar eyes" class="avatar-mini-options">
+      <img id="avatar_eyes_image_3" name="avatar_eyes_image" onclick="chooseProperty('eyes', 3); setAllEyesPreview(3);" src="<?php echo base_url('assets/images/avatar/eyes/eyes-150px-1.png') ?>" alt="avatar eyes" class="avatar-mini-options">
+      <img id="avatar_eyes_image_4" name="avatar_eyes_image" onclick="chooseProperty('eyes', 4); setAllEyesPreview(4);" src="<?php echo base_url('assets/images/avatar/eyes/eyes-150px-1.png') ?>" alt="avatar eyes" class="avatar-mini-options">
+      <img id="avatar_eyes_image_5" name="avatar_eyes_image" onclick="chooseProperty('eyes', 5); setAllEyesPreview(5);" src="<?php echo base_url('assets/images/avatar/eyes/eyes-150px-1.png') ?>" alt="avatar eyes" class="avatar-mini-options-last">
     </div>
   </div>
 </div>
