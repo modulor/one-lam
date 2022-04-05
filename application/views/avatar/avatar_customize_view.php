@@ -42,6 +42,7 @@
             <input type="hidden" id="avatar_eyes" value="1">
             <input type="hidden" id="avatar_accessory" value="1">
             <input type="hidden" id="avatar_badge" value="1">
+            <input type="hidden" id="avatar_background" value="1">
           </div>
         </div>
       </div>
@@ -131,7 +132,7 @@
     }
 
     function actionsForStepFive() {
-      console.log('actionsForStepFive...');
+      $('#avatar_instructions').html('Elige un fondo');
     }
 
     function setAllPropertyPreview(property, propertyNumber) {
