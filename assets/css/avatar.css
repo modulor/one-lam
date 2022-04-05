@@ -7,11 +7,21 @@
   max-height: 730px;
 }
 
-.btn-next {
+.btn-next,
+.btn-next:hover,
+.btn-next:visited,
+.btn-next:active {
   text-decoration: none;
   color: black;
   padding: 0;
   font-size: 1em;
+}
+
+.avatar-preview {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 0 auto;
 }
 
 @media (max-width: 575.98px) {

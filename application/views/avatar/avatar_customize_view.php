@@ -21,29 +21,9 @@
           <div class="customize-area" style="background-image: url('<?php echo base_url('assets/images/avatar/avatar-choose-body-form.png') ?>');">
             <h1>Personaliza<br>tu Avatar</h1>
             <p>Elige tu cuerpo</p>
-            <div id="choose-body">
-              <div class="row">
-                <div class="col-6">
-                  <img name="avatar_body_image" id="avatar_body_image_1" onclick="chooseProperty('body',1)" src="<?php echo base_url('assets/images/avatar/body/body-1.png') ?>" alt="avatar body" class="img-fluid">
-                </div>
-                <div class="col-6">
-                  <img name="avatar_body_image" id="avatar_body_image_2" onclick="chooseProperty('body',2)" src="<?php echo base_url('assets/images/avatar/body/body-2.png') ?>" alt="avatar body" class="img-fluid">
-                </div>
-              </div>
-              <!-- <div class="row">
-                <div class="col-6">
-                  <img name="avatar_body_image" id="avatar_body_image_3" onclick="chooseProperty('body',3)" src="<?php echo base_url('assets/images/avatar/body/body-1.png') ?>" alt="avatar body" class="img-fluid">
-                </div>
-                <div class="col-6">
-                  <img name="avatar_body_image" id="avatar_body_image_4" onclick="chooseProperty('body',4)" src="<?php echo base_url('assets/images/avatar/body/body-1.png') ?>" alt="avatar body" class="img-fluid">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  <img name="avatar_body_image" id="avatar_body_image_5" onclick="chooseProperty('body',5)" src="<?php echo base_url('assets/images/avatar/body/body-1.png') ?>" alt="avatar body" class="img-fluid">
-                </div>
-              </div> -->
-            </div>
+            <?php
+            $this->load->view('avatar/avatar_steps_view');
+            ?>
           </div>
           <div class="row">
             <div class="col-6">
@@ -55,8 +35,9 @@
             </div>
             <div class="col-6 text-end">
               <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-              <button id="btn-next" type="button" class="btn btn-link btn-next ms-2">Siguiente</button>
+              <button id="btn-next" onclick="nextStep();" disabled type="button" class="btn btn-link btn-next ms-2">Siguiente</button>
             </div>
+            <input type="hidden" id="current_step" value="1">
             <input type="hidden" id="avatar_body" value="">
           </div>
         </div>
@@ -65,10 +46,13 @@
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript">
+    const BASE_URL = '<?php echo base_url() ?>';
+
     function chooseProperty(property, propertyNumber) {
       $(`#avatar_${property}`).val(propertyNumber);
       removeBorderToAllProperties(property);
       addBorderToProperty(property, propertyNumber);
+      activeButtonNext();
     }
 
     function removeBorderToAllProperties(property) {
@@ -77,6 +61,38 @@
 
     function addBorderToProperty(property, propertyNumber) {
       $(`#avatar_${property}_image_${propertyNumber}`).addClass('img-clicked');
+    }
+
+    function activeButtonNext() {
+      $(`#btn-next`).attr('disabled', false);
+    }
+
+    function nextStep() {
+      const currentStep = parseInt($('#current_step').val());
+      const nextStep = currentStep + 1;
+
+      $('#current_step').val(nextStep);
+      $(`#avatar_step_${currentStep}`).addClass('d-none');
+      $(`#avatar_step_${nextStep}`).removeClass('d-none');
+
+      actionsByStepNumber(nextStep);
+    }
+
+    function actionsByStepNumber(stepNumber) {
+      switch (stepNumber) {
+        case 2:
+          actionsForStepTwo();
+          break;
+
+        default:
+          break;
+      }
+    }
+
+    function actionsForStepTwo() {
+      const bodyNumber = $('#avatar_body').val();
+      const bodyImage = `${BASE_URL}assets/images/avatar/body/body-856px-${bodyNumber}.png`
+      $('#avatar_preview_step_2').attr('src', bodyImage)
     }
   </script>
 
