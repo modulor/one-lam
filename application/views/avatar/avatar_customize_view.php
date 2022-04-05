@@ -37,12 +37,14 @@
               <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
               <button id="btn-next" onclick="nextStep();" disabled type="button" class="btn btn-link btn-next ms-2">Siguiente</button>
             </div>
-            <input type="hidden" id="current_step" value="1">
-            <input type="hidden" id="avatar_body" value="">
-            <input type="hidden" id="avatar_eyes" value="1">
-            <input type="hidden" id="avatar_accessory" value="1">
-            <input type="hidden" id="avatar_badge" value="1">
-            <input type="hidden" id="avatar_background" value="1">
+            <form id="form_avatar" action="<?php echo base_url('avatar/create') ?>" method="post">
+              <input type="hidden" id="current_step" name="current_step" value="1">
+              <input type="hidden" id="avatar_body" name="avatar_body" value="">
+              <input type="hidden" id="avatar_eyes" name="avatar_eyes" value="1">
+              <input type="hidden" id="avatar_accessory" name="avatar_accessory" value="1">
+              <input type="hidden" id="avatar_badge" name="avatar_badge" value="1">
+              <input type="hidden" id="avatar_background" name="avatar_background" value="1">
+            </form>
           </div>
         </div>
       </div>
@@ -76,12 +78,16 @@
       const currentStep = parseInt($('#current_step').val());
       const nextStep = currentStep + 1;
 
-      $('#current_step').val(nextStep);
-      $(`#avatar_step_${currentStep}`).addClass('d-none');
-      $(`#avatar_step_${nextStep}`).removeClass('d-none');
+      if (nextStep === 6) {
+        submitFormAvatar();
+      } else {
+        $('#current_step').val(nextStep);
+        $(`#avatar_step_${currentStep}`).addClass('d-none');
+        $(`#avatar_step_${nextStep}`).removeClass('d-none');
 
-      actionsByStepNumber(nextStep);
-      updateProgressCircles(currentStep, nextStep);
+        actionsByStepNumber(nextStep);
+        updateProgressCircles(currentStep, nextStep);
+      }
     }
 
     function disableButtonNext() {
@@ -138,8 +144,13 @@
     function setAllPropertyPreview(property, propertyNumber) {
       const path = `assets/images/avatar/${property}/`;
       const extension = property === 'background' ? 'jpeg' : 'png';
-      const propertyImage = `${BASE_URL}${path}${property}-856px-${propertyNumber}.${extension}`;
+      const filename = `${property}-856px-${propertyNumber}.${extension}`;
+      const propertyImage = `${BASE_URL}${path}${filename}`;
       $(`.avatar-${property}-selected`).attr('src', propertyImage);
+    }
+
+    function submitFormAvatar() {
+      $('#form_avatar').submit();
     }
   </script>
 

@@ -14,4 +14,12 @@ class Avatar extends CI_Controller
   {
     $this->load->view('avatar/avatar_customize_view');
   }
+
+  public function create()
+  {
+    echo "CREATE avatar";
+    echo "<pre>";
+    print_r($this->input->post());
+    echo "</pre>";
+  }
 }
