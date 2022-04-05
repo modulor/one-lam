@@ -40,6 +40,7 @@
             <input type="hidden" id="current_step" value="1">
             <input type="hidden" id="avatar_body" value="">
             <input type="hidden" id="avatar_eyes" value="1">
+            <input type="hidden" id="avatar_accessory" value="1">
           </div>
         </div>
       </div>
@@ -142,6 +143,12 @@
       const path = `assets/images/avatar/eyes/`;
       const eyesImage = `${BASE_URL}${path}eyes-856px-${eyesNumber}.png`;
       $(".avatar-eyes-selected").attr('src', eyesImage);
+    }
+
+    function setAllAccessoryPreview(accessoryNumber) {
+      const path = `assets/images/avatar/accessory/`;
+      const accessoryImage = `${BASE_URL}${path}accessory-856px-${accessoryNumber}.png`;
+      $(".avatar-accessory-selected").attr('src', accessoryImage);
     }
   </script>
 
