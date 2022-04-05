@@ -104,11 +104,15 @@
     }
 
     function actionsForStepTwo() {
+      setAllBodyPreview();
+      $('#avatar_instructions').html('Elige un par de ojos')
+    }
+
+    function setAllBodyPreview() {
       const bodyNumber = $('#avatar_body').val();
       const path = `assets/images/avatar/body/`;
       const bodyImage = `${BASE_URL}${path}body-856px-${bodyNumber}.png`
-      $('#avatar_preview_step_2').attr('src', bodyImage)
-      $('#avatar_instructions').html('Elige un par de ojos')
+      $('.avatar-body-selected').attr('src', bodyImage);
     }
 
     function setAllEyesPreview(eyesNumber) {
