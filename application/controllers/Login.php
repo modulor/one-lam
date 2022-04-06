@@ -66,12 +66,15 @@ class Login extends CI_Controller
     if ($user) {
       switch ($user->active) {
         case self::USER_ACTIVE:
+          $this->load->model('Users_avatars_model');
+
           $user_session = array(
             'success' => true,
             'login' => true,
             'id' => $user->id,
             'email' => $user->email,
             'alias' => $user->alias,
+            'avatar' => $this->Users_avatars_model->get_by_users_id($user->id),
           );
           break;
 
