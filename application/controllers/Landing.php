@@ -12,6 +12,15 @@ class Landing extends CI_Controller
 
   public function index()
   {
-    echo "<a href='" . base_url('logout') . "'>Salir</a>";
+    $this->load->view('landing/landing_view');
+  }
+
+  public function welcome()
+  {
+    $data = array(
+      'view' => 'landing/landing_welcome_view',
+    );
+
+    $this->load->view('landing/landing_view', $data);
   }
 }
