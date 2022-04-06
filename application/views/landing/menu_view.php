@@ -4,6 +4,6 @@
     <a href="#">Acerca de</a>
     <a href="#">Services</a>
     <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="<?php echo base_url('logout') ?>">Salir</a>
   </div>
 </div>

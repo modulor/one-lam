@@ -76,5 +76,19 @@ class Avatar extends CI_Controller
 
   private function update_user_session()
   {
+    $this->load->model('Users_avatars_model');
+
+    $user_session = array(
+      'success' => true,
+      'login' => true,
+      'id' => $this->session->userdata('id'),
+      'email' => $this->session->userdata('email'),
+      'alias' => $this->session->userdata('alias'),
+      'avatar' => $this->Users_avatars_model->get_by_users_id(
+        $this->session->userdata('id')
+      ),
+    );
+
+    $this->session->set_userdata($user_session);
   }
 }
