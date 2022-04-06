@@ -118,7 +118,7 @@ class Login extends CI_Controller
   {
     $this->session->set_userdata($login);
 
-    redirect(base_url('landing'), 'refresh');
+    redirect(base_url('landing/welcome'), 'refresh');
   }
 
   private function display_error_access_not_allowed($login)

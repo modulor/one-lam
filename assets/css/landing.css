@@ -59,6 +59,17 @@ body {
   height: 45px;
 }
 
+.user-avatar-preview-img {
+  position: absolute;
+  top: 280px;
+  left: 515px;
+  height: 400px;
+}
+
+.avatar-preview {
+  height: 440px;
+}
+
 @media screen and (max-height: 450px) {
   .menu-overlay a {
     font-size: 20px;
@@ -70,6 +81,11 @@ body {
   }
 }
 
-/* @media (max-width: 575.98px) {
-  
-} */
+@media (max-width: 575.98px) {
+  .user-avatar-preview-img {
+    position: absolute;
+    top: 280px;
+    left: 45px;
+    height: 300px;
+  }
+}

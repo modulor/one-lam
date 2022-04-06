@@ -36,13 +36,9 @@
       </div>
     </div>
   </nav>
-  <main class="container">
-    <div class="row">
-      <div class="col">
-
-      </div>
-    </div>
-  </main>
+  <?php
+  $this->load->view($view);
+  ?>
   <script src="<?php echo base_url('assets/js/landing.js') ?>"></script>
 </body>
 

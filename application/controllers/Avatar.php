@@ -32,6 +32,8 @@ class Avatar extends CI_Controller
         $this->session->userdata('id')
       );
 
+      $this->update_user_session();
+
       $avatar_images = $this->get_avatar_images_path($avatar);
 
       $data = array(
@@ -70,5 +72,9 @@ class Avatar extends CI_Controller
       'accessory' => "{$path}accessory/accessory-856px-{$avatar->accessory}.png",
       'badge' => "{$path}badge/badge-856px-{$avatar->badge}.png",
     );
+  }
+
+  private function update_user_session()
+  {
   }
 }
