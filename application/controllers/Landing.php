@@ -12,7 +12,11 @@ class Landing extends CI_Controller
 
   public function index()
   {
-    $this->load->view('landing/landing_view');
+    $data = array(
+      'view' => 'landing/landing_index_view',
+    );
+
+    $this->load->view('landing/landing_view', $data);
   }
 
   public function welcome()
