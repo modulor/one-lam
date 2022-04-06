@@ -20,7 +20,6 @@
         <div class="col-md-4 offset-md-4">
           <div class="col-avatar-step-success">
             <h1>&iexcl;Creaste tu<br>Avatar con éxito,<br><?php echo $this->session->userdata('alias') ?>!</h1>
-
             <div class="row mb-5">
               <div class="col-12 text-center avatar-preview">
                 <img class="avatar-background-selected" src="<?php echo base_url($avatar_images['background']) ?>" alt="background selected">
@@ -37,6 +36,7 @@
               <a href="<?php echo base_url('landing') ?>" class="btn btn-link btn-next ms-2">Siguiente</a>
             </div>
           </div>
+          <img src="<?php echo base_url('assets/images/avatar/avatar-form-step-success-2.png') ?>" alt="home yellow form" class="avatar-form-step-success-2">
         </div>
       </div>
     </div>

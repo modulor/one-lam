@@ -35,7 +35,6 @@ class Avatar extends CI_Controller
       $avatar_images = $this->get_avatar_images_path($avatar);
 
       $data = array(
-        'avatar' => $avatar,
         'avatar_images' => $avatar_images,
       );
 

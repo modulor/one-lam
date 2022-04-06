@@ -85,6 +85,13 @@
   height: 300px;
 }
 
+.avatar-form-step-success-2 {
+  position: absolute;
+  bottom: -45px;
+  left: 630px;
+  width: 12%;
+}
+
 @media (max-width: 575.98px) {
   .img-form {
     position: absolute;
@@ -110,5 +117,12 @@
     padding: 50px 10px;
     height: 730px;
     max-height: 730px;
+  }
+
+  .avatar-form-step-success-2 {
+    position: absolute;
+    bottom: -45px;
+    left: 100px;
+    width: 40%;
   }
 }
