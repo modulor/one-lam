@@ -14,28 +14,17 @@
 </head>
 
 <body>
-  <div id="myNav" class="overlay">
-
-    <!-- Button to close the overlay navigation -->
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-    <!-- Overlay content -->
-    <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div>
-
-  </div>
+  <?php $this->load->view('landing/menu_view') ?>
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
     <div class="container py-2">
       <div class="col-4">
-        <button onclick="openNav()" type="button" class="btn btn-link">
+        <button onclick="openMenu()" type="button" class="btn btn-link btn-open-menu">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
-      <div class="col-4 text-center">LOGO</div>
+      <div class="col-4 text-center">
+        <img src="<?php echo base_url('assets/images/logo-one-lam.png') ?>" width="110" alt="one lam">
+      </div>
       <div class="col-4 text-end">AVATAR</div>
     </div>
   </nav>
@@ -46,16 +35,7 @@
       </div>
     </div>
   </main>
-  <script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-
-    /* Close when someone clicks on the "x" symbol inside the overlay */
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-  </script>
+  <script src="<?php echo base_url('assets/js/landing.js') ?>"></script>
 </body>
 
 </html>
