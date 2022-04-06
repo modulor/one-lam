@@ -16,7 +16,7 @@
 <body>
   <?php $this->load->view('landing/menu_view') ?>
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <div class="container py-2">
+    <div class="container py-4">
       <div class="col-4">
         <button onclick="openMenu()" type="button" class="btn btn-link btn-open-menu">
           <i class="fa-solid fa-bars"></i>
@@ -25,7 +25,15 @@
       <div class="col-4 text-center">
         <img src="<?php echo base_url('assets/images/logo-one-lam.png') ?>" width="110" alt="one lam">
       </div>
-      <div class="col-4 text-end">AVATAR</div>
+      <div class="col-4 text-end">
+        <div class="user-avatar">
+          <img class="user-avatar-property rounded-circle" src="<?php echo base_url('assets/images/avatar/background/background-150px-1.jpeg') ?>" alt="background selected" height="45">
+          <img class="user-avatar-property" src="<?php echo base_url('assets/images/avatar/body/body-400px-1.png') ?>" alt="avatar body">
+          <img class="user-avatar-property" src="<?php echo base_url('assets/images/avatar/eyes/eyes-150px-1.png') ?>" alt="eyes selected">
+          <img class="user-avatar-property" src="<?php echo base_url('assets/images/avatar/accessory/accessory-150px-1.png') ?>" alt="eyes saccessory">
+          <img class="user-avatar-property" src="<?php echo base_url('assets/images/avatar/badge/badge-150px-1.png') ?>" alt="badge selected">
+        </div>
+      </div>
     </div>
   </nav>
   <main class="container">
