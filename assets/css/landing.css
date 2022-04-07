@@ -82,9 +82,18 @@ body {
   padding: 0;
 }
 
-a.link-submenu {
-  font-size: 26px;
+a.link-submenu,
+a.link-extra-material {
+  font-size: 20px;
   font-family: "AdihausDIN" !important;
+}
+
+.extra-material-area {
+  background-image: url("../images/green-form.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 180px;
+  padding: 50px 40px 50px 0;
 }
 
 @media screen and (max-height: 450px) {

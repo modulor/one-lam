@@ -22,5 +22,10 @@
     </div>
     <a href="<?php echo base_url('experiences') ?>">Experencia del día</a>
     <a href="<?php echo base_url('more') ?>">Más Info</a>
+    <div class="extra-material-area text-end">
+      <a href="<?php echo base_url('extras') ?>" class="link-extra-material">
+        <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Material<br>descargable
+      </a>
+    </div>
   </div>
 </div>
