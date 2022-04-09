@@ -1,3 +1,4 @@
 $(() => {
-  console.log("landing index...");
+  const eventModal = new bootstrap.Modal(document.getElementById("eventModal"));
+  eventModal.show();
 });
