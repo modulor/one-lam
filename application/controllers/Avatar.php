@@ -66,7 +66,7 @@ class Avatar extends CI_Controller
     $path = 'assets/images/avatar/';
 
     return array(
-      'background' => "{$path}background/background-856px-{$avatar->background}.jpeg",
+      'background' => "{$path}background/background-856px-{$avatar->background}.jpg",
       'body' => "{$path}body/body-856px-{$avatar->body}.png",
       'eyes' => "{$path}eyes/eyes-856px-{$avatar->eyes}.png",
       'accessory' => "{$path}accessory/accessory-856px-{$avatar->accessory}.png",

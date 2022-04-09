@@ -27,7 +27,7 @@
       </div>
       <div class="col-4 text-end">
         <div class="user-avatar">
-          <img class="user-avatar-property rounded-circle" src="<?php echo base_url("assets/images/avatar/background/background-150px-{$this->session->userdata('avatar')->background}.jpeg") ?>" alt="background selected" height="45">
+          <img class="user-avatar-property" src="<?php echo base_url("assets/images/avatar/background/background-150px-{$this->session->userdata('avatar')->background}.jpg") ?>" alt="background selected" height="45">
           <img class="user-avatar-property" src="<?php echo base_url("assets/images/avatar/body/body-400px-{$this->session->userdata('avatar')->body}.png") ?>" alt="avatar body">
           <img class="user-avatar-property" src="<?php echo base_url("assets/images/avatar/eyes/eyes-150px-{$this->session->userdata('avatar')->eyes}.png") ?>" alt="eyes selected">
           <img class="user-avatar-property" src="<?php echo base_url("assets/images/avatar/accessory/accessory-150px-{$this->session->userdata('avatar')->accessory}.png") ?>" alt="eyes saccessory">
