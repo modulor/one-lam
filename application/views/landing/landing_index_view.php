@@ -1,8 +1,51 @@
-<main class="container bg-landing pt-4">
+<main class="container-fluid bg-landing pt-4">
   <div class="row">
     <div class="col-md-4 offset-md-4">
       <div class="card">
-        <div class="card-body"></div>
+        <div class="card-body">
+          <div class="row mb-5">
+            <div class="col-3 pt-3">
+              <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+            </div>
+            <div class="col-9">
+              <a href="<?php echo base_url('schedule') ?>" class="btn btn-link btn-link-landing-index">
+                Agenda
+              </a>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-3 pt-3">
+              <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+            </div>
+            <div class="col-9">
+              <a href="<?php echo base_url('experiences') ?>" class="btn btn-link btn-link-landing-index">
+                Experiencia del día
+              </a>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-3 pt-3">
+              <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+            </div>
+            <div class="col-9">
+              <a href="<?php echo base_url('more') ?>" class="btn btn-link btn-link-landing-index">
+                Más info
+              </a>
+            </div>
+          </div>
+          <div class="extra-material-area-landing">
+            <div class="row">
+              <div class="col-3">
+                <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+              </div>
+              <div class="col-9">
+                <a href="<?php echo base_url('extras') ?>" class="link-extra-material">
+                  Material<br>descargable
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

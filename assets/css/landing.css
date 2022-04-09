@@ -86,19 +86,43 @@ a.link-submenu,
 a.link-extra-material {
   font-size: 20px;
   font-family: "AdihausDIN" !important;
+  color: black;
+  text-decoration: none;
+}
+
+.extra-material-area,
+.extra-material-area-landing {
+  background-image: url("../images/green-form.png");
+  background-repeat: no-repeat;
+  background-size: 180px;
 }
 
 .extra-material-area {
-  background-image: url("../images/green-form.png");
-  background-repeat: no-repeat;
   background-position-x: right;
-  background-size: 180px;
   padding: 50px 40px 50px 0;
 }
 
-.bg-landing {
-  background-image: url("../images/bg/bg-home-desktop.jpeg");
+.extra-material-area-landing {
+  padding: 60px 40px 60px 0;
 }
+
+/* landing index */
+
+main.bg-landing {
+  background-image: url("../images/bg/bg-home-desktop.jpeg");
+  height: 88vh;
+  width: 100%;
+}
+
+a.btn-link-landing-index,
+a.btn-link-landing-index:link {
+  font-family: "adineue PRO Bold" !important;
+  font-size: 1.9em;
+  text-align: left;
+  padding: 0;
+}
+
+/*  */
 
 @media screen and (max-height: 450px) {
   .menu-overlay a {
@@ -121,6 +145,6 @@ a.link-extra-material {
 
   .bg-landing {
     background-image: url("../images/bg/bg-home-mobile.jpeg");
-    height: 100vh;
+    height: 88vh;
   }
 }
