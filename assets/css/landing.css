@@ -124,6 +124,43 @@ a.btn-link-landing-index:link {
 
 /*  */
 
+/* schedule */
+
+.schedule-card-body {
+  font-family: "adineue PRO Bold" !important;
+}
+
+.schedule-bg-gray {
+  background-color: #f2f2f2;
+}
+
+.schedule-left-column {
+  font-size: 10px;
+}
+
+.schedule-right-column {
+  font-size: 14px;
+  text-align: center;
+}
+
+.schedule-bg-green {
+  background-color: #a2ee90;
+}
+
+.schedule-bg-yellow {
+  background-color: #f9d949;
+}
+
+.schedule-bg-pink {
+  background-color: #ec88cb;
+}
+
+a.btn-border-black {
+  border-color: black !important;
+}
+
+/*  */
+
 @media screen and (max-height: 450px) {
   .menu-overlay a {
     font-size: 20px;
