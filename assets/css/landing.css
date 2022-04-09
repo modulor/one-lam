@@ -1,5 +1,5 @@
 body {
-  padding-top: 7.5rem;
+  padding-top: 105px;
 }
 
 .menu-overlay {
@@ -96,6 +96,10 @@ a.link-extra-material {
   padding: 50px 40px 50px 0;
 }
 
+.bg-landing {
+  background-image: url("../images/bg/bg-home-desktop.jpeg");
+}
+
 @media screen and (max-height: 450px) {
   .menu-overlay a {
     font-size: 20px;
@@ -113,5 +117,10 @@ a.link-extra-material {
     top: 280px;
     left: 45px;
     height: 300px;
+  }
+
+  .bg-landing {
+    background-image: url("../images/bg/bg-home-mobile.jpeg");
+    height: 100vh;
   }
 }

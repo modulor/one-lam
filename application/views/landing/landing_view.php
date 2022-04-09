@@ -39,8 +39,18 @@
   <?php
   $this->load->view($view);
   ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="<?php echo base_url('assets/js/landing.js') ?>"></script>
+  <?php
+  if (isset($_js)) :
+    foreach ($_js as $js) :
+  ?>
+      <script src="<?php echo base_url("assets/{$js}") ?>"></script>
+  <?php
+    endforeach;
+  endif;
+  ?>
 </body>
 
 </html>
