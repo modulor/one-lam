@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-4 offset-md-4">
       <div class="card">
-        <div class="card-body">
+        <div class="card-body pt-5 pb-5">
           <div class="row mb-5">
             <div class="col-3 pt-3">
               <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
