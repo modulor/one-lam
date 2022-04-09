@@ -7,11 +7,11 @@
         <?php echo $this->session->userdata('alias') ?>!
       </h1>
       <div class="avatar-preview">
-        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/background/background-150px-{$this->session->userdata('avatar')->background}.jpeg") ?>" alt="background selected">
+        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/background/background-400px-{$this->session->userdata('avatar')->background}.jpg") ?>" alt="background selected">
         <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/body/body-400px-{$this->session->userdata('avatar')->body}.png") ?>" alt="avatar body">
-        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/eyes/eyes-150px-{$this->session->userdata('avatar')->eyes}.png") ?>" alt="eyes selected">
-        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/accessory/accessory-150px-{$this->session->userdata('avatar')->accessory}.png") ?>" alt="eyes saccessory">
-        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/badge/badge-150px-{$this->session->userdata('avatar')->badge}.png") ?>" alt="badge selected">
+        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/eyes/eyes-400px-{$this->session->userdata('avatar')->eyes}.png") ?>" alt="eyes selected">
+        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/accessory/accessory-400px-{$this->session->userdata('avatar')->accessory}.png") ?>" alt="eyes saccessory">
+        <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/badge/badge-400px-{$this->session->userdata('avatar')->badge}.png") ?>" alt="badge selected">
       </div>
       <div class="row">
         <div class="col text-end">
