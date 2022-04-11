@@ -198,6 +198,52 @@ a.experience-link:hover {
 
 /*  */
 
+/* more */
+
+main.bg-more {
+  background-image: url("../images/bg/bg-more-desktop.jpeg");
+  height: 88vh;
+  width: 100%;
+}
+
+/*  */
+
+/* extras */
+
+main.bg-extras {
+  background-image: url("../images/bg/bg-extras-desktop.jpeg");
+  height: 88vh;
+  width: 100%;
+}
+
+.extras-card-body {
+  font-family: "adineue PRO Bold" !important;
+}
+
+.extras-photos,
+.extras-archives {
+  background-repeat: no-repeat;
+  background-size: 110px;
+  padding: 45px 0 60px 30px;
+}
+
+.extras-photos {
+  background-image: url("../images/register-pink-form.png");
+}
+
+.extras-archives {
+  background-image: url("../images/login-yellow-form.png");
+}
+
+a.extras-link,
+a.extras-link:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+/*  */
+
 @media screen and (max-height: 450px) {
   .menu-overlay a {
     font-size: 20px;
@@ -224,7 +270,19 @@ a.experience-link:hover {
 
   main.bg-experiences {
     background-image: url("../images/bg/bg-experiences-mobile.jpeg");
-    height: 100%;
+    height: 88vh;
+    width: 100%;
+  }
+
+  main.bg-more {
+    background-image: url("../images/bg/bg-more-mobile.jpeg");
+    height: 100vh;
+    width: 100%;
+  }
+
+  main.bg-extras {
+    background-image: url("../images/bg/bg-extras-mobile.jpeg");
+    height: 88vh;
     width: 100%;
   }
 }

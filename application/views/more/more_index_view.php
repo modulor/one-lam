@@ -1,4 +1,4 @@
-<main class="container-fluid bg-experiences pt-4">
+<main class="container-fluid bg-more pt-4">
   <div class="row">
     <div class="col-12 col-md-8 offset-md-2">
       <div class="card">
