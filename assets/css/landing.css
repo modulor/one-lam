@@ -161,6 +161,43 @@ a.btn-border-black {
 
 /*  */
 
+/* experiencies */
+
+main.bg-experiences {
+  background-image: url("../images/bg/bg-experiences-desktop.jpeg");
+  height: 88vh;
+  width: 100%;
+}
+
+.experience-sports,
+.experience-business,
+.experience-connect {
+  background-repeat: no-repeat;
+  background-size: 70px;
+  padding: 30px 0 40px 30px;
+}
+
+.experience-sports {
+  background-image: url("../images/blue-form.png");
+}
+
+.experience-business {
+  background-image: url("../images/orange-form.png");
+}
+
+.experience-connect {
+  background-image: url("../images/green-form.png");
+}
+
+a.experience-link,
+a.experience-link:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/*  */
+
 @media screen and (max-height: 450px) {
   .menu-overlay a {
     font-size: 20px;
@@ -183,5 +220,11 @@ a.btn-border-black {
   .bg-landing {
     background-image: url("../images/bg/bg-home-mobile.jpeg");
     height: 88vh;
+  }
+
+  main.bg-experiences {
+    background-image: url("../images/bg/bg-experiences-mobile.jpeg");
+    height: 88vh;
+    width: 100%;
   }
 }
