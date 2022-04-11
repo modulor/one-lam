@@ -224,7 +224,7 @@ a.experience-link:hover {
 
   main.bg-experiences {
     background-image: url("../images/bg/bg-experiences-mobile.jpeg");
-    height: 88vh;
+    height: 100%;
     width: 100%;
   }
 }
