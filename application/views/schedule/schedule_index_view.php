@@ -3,7 +3,7 @@
     <div class="col-md-4 offset-md-4">
       <div class="card">
         <div class="card-body pt-2 schedule-card-body">
-          <h1>Agenda</h1>
+          <h1>Winners Agenda</h1>
           <div class="row mb-2">
             <div class="col-4">
               <div class="schedule-bg-gray p-2 schedule-left-column text-center">
@@ -80,7 +80,7 @@
               <div class="d-grid gap-2">
                 <a href="<?php echo base_url('schedule') ?>" class="btn btn-dark">
                   <span class="schedule-date">25</span><br>
-                  Abril
+                  April
                 </a>
               </div>
             </div>
@@ -88,7 +88,7 @@
               <div class="d-grid gap-2">
                 <a href="<?php echo base_url('schedule') ?>" class="btn btn-light btn-border-black">
                   <span class="schedule-date">26</span><br>
-                  Abril
+                  April
                 </a>
               </div>
             </div>
@@ -96,7 +96,7 @@
               <div class="d-grid gap-2">
                 <a href="<?php echo base_url('schedule') ?>" class="btn btn-light btn-border-black">
                   <span class="schedule-date">27</span><br>
-                  Abril
+                  April
                 </a>
               </div>
             </div>
@@ -104,7 +104,7 @@
               <div class="d-grid gap-2">
                 <a href="<?php echo base_url('schedule') ?>" class="btn btn-light btn-border-black">
                   <span class="schedule-date">28</span><br>
-                  Abril
+                  April
                 </a>
               </div>
             </div>
