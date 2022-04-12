@@ -6,16 +6,16 @@
     </button>
     <div class="collapse" id="schedule-collapse">
       <div class="p-4">
-        <a href="<?php echo base_url('schedule') ?>" class="link-submenu">
+        <a href="<?php echo base_url('schedule/day/25') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> april 25
         </a>
-        <a href="<?php echo base_url('schedule') ?>" class="link-submenu">
+        <a href="<?php echo base_url('schedule/day/26') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> april 26
         </a>
-        <a href="<?php echo base_url('schedule') ?>" class="link-submenu">
+        <a href="<?php echo base_url('schedule/day/27') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> april 27
         </a>
-        <a href="<?php echo base_url('schedule') ?>" class="link-submenu">
+        <a href="<?php echo base_url('schedule/day/28') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> april 28
         </a>
       </div>

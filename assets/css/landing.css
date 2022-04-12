@@ -127,6 +127,25 @@ a.btn-link-landing-index:link {
 
 /* schedule */
 
+table.schedule-table {
+  text-transform: uppercase;
+  border: none;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 3px 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+table.schedule-table td {
+  padding: 5px 10px;
+}
+
+table.schedule-table td:last-child {
+  border-right-width: 0;
+}
+
 .schedule-card-body {
   font-family: "adineue PRO Bold" !important;
 }
@@ -135,13 +154,16 @@ a.btn-link-landing-index:link {
   background-color: #f2f2f2;
 }
 
-.schedule-left-column {
+.schedule-font-10-px {
   font-size: 10px;
 }
 
 .schedule-right-column {
-  font-size: 14px;
   text-align: center;
+}
+
+.schedule-font-14-px {
+  font-size: 14px;
 }
 
 .schedule-bg-green {
@@ -154,6 +176,10 @@ a.btn-link-landing-index:link {
 
 .schedule-bg-pink {
   background-color: #ec88cb;
+}
+
+.schedule-bg-orange {
+  background-color: #da9472;
 }
 
 a.btn-border-black {
