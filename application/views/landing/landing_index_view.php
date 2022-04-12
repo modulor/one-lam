@@ -9,7 +9,7 @@
             </div>
             <div class="col-9">
               <a href="<?php echo base_url('schedule') ?>" class="btn btn-link btn-link-landing-index">
-                Agenda
+                Winners Agenda
               </a>
             </div>
           </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="col-9">
               <a href="<?php echo base_url('experiences') ?>" class="btn btn-link btn-link-landing-index">
-                Experiencia del día
+                Daily Experience
               </a>
             </div>
           </div>
@@ -29,7 +29,7 @@
             </div>
             <div class="col-9">
               <a href="<?php echo base_url('more') ?>" class="btn btn-link btn-link-landing-index">
-                Más info
+                More
               </a>
             </div>
           </div>
@@ -40,7 +40,7 @@
               </div>
               <div class="col-9">
                 <a href="<?php echo base_url('extras') ?>" class="link-extra-material">
-                  Material<br>descargable
+                  Download<br>Content
                 </a>
               </div>
             </div>
