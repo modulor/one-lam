@@ -1,5 +1,5 @@
 body {
-  padding-top: 105px;
+  padding-top: 76px;
 }
 
 .menu-overlay {
@@ -223,6 +223,10 @@ a.experience-link:hover {
   font-size: 28px;
 }
 
+.star-selected {
+  color: #f4da65;
+}
+
 /*  */
 
 /* more */
@@ -298,7 +302,7 @@ a.extras-link:hover {
 
   main.bg-experiences {
     background-image: url("../images/bg/bg-experiences-mobile.jpeg");
-    height: 88vh;
+    height: 92vh;
     width: 100%;
   }
 

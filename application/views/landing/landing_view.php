@@ -16,7 +16,7 @@
 <body>
   <?php $this->load->view('landing/menu_view') ?>
   <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <div class="container py-4">
+    <div class="container py-1">
       <div class="col-4">
         <button onclick="openMenu()" type="button" class="btn btn-link btn-open-menu">
           <i class="fa-solid fa-bars"></i>

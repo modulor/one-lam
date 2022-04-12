@@ -20,7 +20,12 @@ main {
 .event-title h2 {
   font-size: 45px;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+}
+
+.event-title h3 {
+  font-size: 38px;
+  margin-top: -5px;
 }
 
 .form-control-email-alias {
