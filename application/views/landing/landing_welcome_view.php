@@ -2,9 +2,7 @@
   <div class="row">
     <div class="col-md-4 offset-md-4">
       <h1>
-        &iexcl;Bienvenido<br>
-        de vuelta,<br>
-        <?php echo $this->session->userdata('alias') ?>!
+        Welcome back, <?php echo $this->session->userdata('alias') ?>, victory is right ahead!
       </h1>
       <div class="avatar-preview">
         <img class="user-avatar-preview-img" src="<?php echo base_url("assets/images/avatar/background/background-400px-{$this->session->userdata('avatar')->background}.jpg") ?>" alt="background selected">
@@ -17,7 +15,7 @@
         <div class="col text-end">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
           <a href="<?php echo base_url('landing') ?>" class="btn btn-link">
-            Siguiente
+            Next
           </a>
         </div>
       </div>
