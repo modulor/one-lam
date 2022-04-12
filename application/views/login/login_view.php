@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -22,24 +22,24 @@
               <div class="event-title">
                 <h1>ONE LAM</h1>
                 <h2>CONFERENCE</h2>
-                <h3>POWER DEL CARMEN</h3>
+                <h3>LET'S WIN</h3>
               </div>
               <?php if (isset($error_message)) : ?>
                 <p class="text-danger text-center m-0 p-0"><?php echo $error_message ?></p>
               <?php endif; ?>
               <form action="<?php echo base_url('login') ?>" method="post">
                 <div class="form-group mb-4">
-                  <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Escribe tu correo o alias">
+                  <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Write your mail or alias">
                 </div>
                 <p class="text-end">
                   <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-                  <button type="submit" class="btn btn-link btn-login ms-2">Inicia sesión</button>
+                  <button type="submit" class="btn btn-link btn-login ms-2">Log in</button>
                 </p>
               </form>
-              <p class="text-center">&iquest;No tienes cuenta?</p>
+              <p class="text-center">No account?</p>
               <p class="text-end">
                 <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-                <a href="<?php echo base_url('register') ?>" class="link-register">Regístrate ahora</a>
+                <a href="<?php echo base_url('register') ?>" class="link-register">Register now!</a>
               </p>
 
             </div>
