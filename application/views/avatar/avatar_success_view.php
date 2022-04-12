@@ -19,21 +19,22 @@
       <div class="row">
         <div class="col-md-4 offset-md-4">
           <div class="col-avatar-step-success">
-            <h1>&iexcl;Creaste tu<br>Avatar con éxito,<br><?php echo $this->session->userdata('alias') ?>!</h1>
+            <p class="mb-1">You are a step closer to win, <?php echo $this->session->userdata('alias') ?></p>
+            <h1>That's it! here's a digital winner version of you!</h1>
             <div class="row mb-5">
               <div class="col-12 text-center avatar-preview">
-                <img class="avatar-background-selected" src="<?php echo base_url($avatar_images['background']) ?>" alt="background selected">
-                <img class="avatar-body-selected" src="<?php echo base_url($avatar_images['body']) ?>" alt="avatar body">
-                <img class="avatar-eyes-selected" src="<?php echo base_url($avatar_images['eyes']) ?>" alt="eyes selected">
-                <img class="avatar-accessory-selected" src="<?php echo base_url($avatar_images['accessory']) ?>" alt="eyes saccessory">
-                <img class="avatar-badge-selected" src="<?php echo base_url($avatar_images['badge']) ?>" alt="badge selected">
+                <img class="avatar-background-selected-success" src="<?php echo base_url($avatar_images['background']) ?>" alt="background selected">
+                <img class="avatar-body-selected-success" src="<?php echo base_url($avatar_images['body']) ?>" alt="avatar body">
+                <img class="avatar-eyes-selected-success" src="<?php echo base_url($avatar_images['eyes']) ?>" alt="eyes selected">
+                <img class="avatar-accessory-selected-success" src="<?php echo base_url($avatar_images['accessory']) ?>" alt="eyes saccessory">
+                <img class="avatar-badge-selected-success" src="<?php echo base_url($avatar_images['badge']) ?>" alt="badge selected">
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-12 text-end">
               <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-              <a href="<?php echo base_url('landing') ?>" class="btn btn-link btn-next ms-2">Siguiente</a>
+              <a href="<?php echo base_url('landing') ?>" class="btn btn-link btn-next ms-2">Next step</a>
             </div>
           </div>
           <img src="<?php echo base_url('assets/images/avatar/avatar-form-step-success-2.png') ?>" alt="home yellow form" class="avatar-form-step-success-2">

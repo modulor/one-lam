@@ -1,5 +1,5 @@
 $(() => {
-  // openEventModal();
+  openEventModal();
 });
 
 function openEventModal() {

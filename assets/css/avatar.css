@@ -78,12 +78,25 @@
 .avatar-eyes-selected,
 .avatar-accessory-selected,
 .avatar-badge-selected,
-.avatar-background-selected {
+.avatar-background-selected,
+.avatar-body-selected-success,
+.avatar-eyes-selected-success,
+.avatar-accessory-selected-success,
+.avatar-badge-selected-success,
+.avatar-background-selected-success {
   position: absolute;
-  top: 197px;
-  left: 570px;
+  top: 232px;
+  left: 564px;
   width: 300px;
   height: 300px;
+}
+
+.avatar-body-selected,
+.avatar-eyes-selected,
+.avatar-accessory-selected,
+.avatar-badge-selected,
+.avatar-background-selected {
+  top: 198px;
 }
 
 .avatar-form-step-success-2 {
@@ -106,12 +119,25 @@
   .avatar-eyes-selected,
   .avatar-accessory-selected,
   .avatar-badge-selected,
-  .avatar-background-selected {
+  .avatar-background-selected,
+  .avatar-body-selected-success,
+  .avatar-eyes-selected-success,
+  .avatar-accessory-selected-success,
+  .avatar-badge-selected-success,
+  .avatar-background-selected-success {
     position: absolute;
-    top: 197px;
+    top: 232px;
     left: 45px;
     width: 300px;
     height: 300px;
+  }
+
+  .avatar-body-selected,
+  .avatar-eyes-selected,
+  .avatar-accessory-selected,
+  .avatar-badge-selected,
+  .avatar-background-selected {
+    top: 198px;
   }
 
   .customize-area {

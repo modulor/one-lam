@@ -52,14 +52,14 @@
 </main>
 
 <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title" id="eventModalLabel">Ancla el evento a tu teléfono</h3>
+        <h3 class="modal-title" id="eventModalLabel">Anchor the event to your phone</h3>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Conoce como añadir todo el sitio a la pantalla de inicio de tu teléfono y ten toda la información al instante:</p>
+        <p>Discover how to add the website to your homescreen phone and get all the information instantly:</p>
         <p>iOS</p>
         <ol>
           <li>Lorem ipsum dolor</li>

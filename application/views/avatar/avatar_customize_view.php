@@ -19,8 +19,8 @@
       <div class="row">
         <div id="col-avatar-steps" class="col-md-4 offset-md-4 col-avatar-step-1">
           <div class="customize-area">
-            <h1>Personaliza<br>tu Avatar</h1>
-            <p id="avatar_instructions">Elige tu cuerpo</p>
+            <h1 id="main-title">All winners have an Avatar, Customize yours!</h1>
+            <p id="avatar_instructions">Choose your favorite winner option</p>
             <?php
             $this->load->view('avatar/avatar_steps_view');
             ?>
@@ -35,7 +35,7 @@
             </div>
             <div class="col-6 text-end">
               <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-              <button id="btn-next" onclick="nextStep();" disabled type="button" class="btn btn-link btn-next ms-2">Siguiente</button>
+              <button id="btn-next" onclick="nextStep();" disabled type="button" class="btn btn-link btn-next ms-2">Next step</button>
             </div>
             <form id="form_avatar" action="<?php echo base_url('avatar/create') ?>" method="post">
               <input type="hidden" id="current_step" name="current_step" value="1">
@@ -126,25 +126,23 @@
     }
 
     function actionsForStepTwo() {
-      $('#avatar_instructions').html('Elige un par de ojos');
+      $('#main-title').html('Customize your Avatar!');
+      $('#avatar_instructions').html('Choose your winner');
       $('#col-avatar-steps').removeClass('col-avatar-step-1');
       $('#col-avatar-steps').addClass('col-avatar-step-2');
     }
 
     function actionsForStepThree() {
-      $('#avatar_instructions').html('Elige un accesorio');
       $('#col-avatar-steps').removeClass('col-avatar-step-2');
       $('#col-avatar-steps').addClass('col-avatar-step-3');
     }
 
     function actionsForStepFour() {
-      $('#avatar_instructions').html('Elige una insignia');
       $('#col-avatar-steps').removeClass('col-avatar-step-3');
       $('#col-avatar-steps').addClass('col-avatar-step-4');
     }
 
     function actionsForStepFive() {
-      $('#avatar_instructions').html('Elige un fondo');
       $('#col-avatar-steps').removeClass('col-avatar-step-4');
       $('#col-avatar-steps').addClass('col-avatar-step-5');
     }

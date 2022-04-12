@@ -29,7 +29,7 @@
               <?php endif; ?>
               <form action="<?php echo base_url('login') ?>" method="post">
                 <div class="form-group mb-4">
-                  <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Write your mail or alias">
+                  <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Write your mail or alias" autofocus>
                 </div>
                 <p class="text-end">
                   <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
