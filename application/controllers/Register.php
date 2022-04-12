@@ -48,21 +48,21 @@ class Register extends CI_Controller
     return array(
       array(
         'field' => 'email',
-        'label' => 'Correo electrónico',
+        'label' => 'Mail',
         'rules' => 'trim|required',
-        'errors' => array('required|valid_email' => '%s es obligatorio')
+        'errors' => array('required|valid_email' => '%s is required')
       ),
       array(
         'field' => 'alias',
         'label' => 'Alias',
         'rules' => 'trim|required',
-        'errors' => array('required' => '%s es obligatorio')
+        'errors' => array('required' => '%s is required')
       ),
       array(
         'field' => 'accept_terms_and_conditions',
-        'label' => 'Términos y condiciones',
+        'label' => 'Terms and conditions',
         'rules' => 'trim|required',
-        'errors' => array('required' => '%s es obligatorio')
+        'errors' => array('required' => '%s are required')
       ),
     );
   }
