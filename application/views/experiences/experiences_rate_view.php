@@ -25,7 +25,7 @@ else :
         <input type="hidden" name="experience_name" value="<?php echo $experience_name ?>">
         <input type="hidden" name="day" value="<?php echo $day ?>">
         <input type="hidden" name="users_id" value="<?php echo $this->session->userdata('id') ?>">
-        <button class="btn btn-warning" type="submit">Rate experience</button>
+        <button id="btn-submit" disabled class="btn btn-warning" type="submit">Rate experience</button>
       </div>
     </div>
   </form>

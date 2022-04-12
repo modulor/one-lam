@@ -1,4 +1,5 @@
 function selectStar(starNumber) {
+  enableSubmitButton();
   setAllStarsEmpty();
 
   for (let index = 1; index <= starNumber; index++) {
@@ -7,6 +8,10 @@ function selectStar(starNumber) {
   }
 
   $("#total_stars").val(starNumber);
+}
+
+function enableSubmitButton() {
+  $("#btn-submit").attr("disabled", false);
 }
 
 function setAllStarsEmpty() {
