@@ -95,7 +95,7 @@ class Login extends CI_Controller
     } else {
       $user_session = array(
         'success' => false,
-        'message' => 'Correo electrónico y/o alias no encontrado'
+        'message' => 'Mail or alias not founded'
       );
     }
 
@@ -107,9 +107,9 @@ class Login extends CI_Controller
     return array(
       array(
         'field' => 'email_alias',
-        'label' => 'Correo electrónico o Alias',
+        'label' => 'Mail or Alias',
         'rules' => 'trim|required',
-        'errors' => array('required' => '%s es obligatorio')
+        'errors' => array('required' => '%s is required')
       ),
     );
   }

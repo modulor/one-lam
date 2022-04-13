@@ -7,7 +7,7 @@ if (isset($is_rated)) :
 <?php
 else :
 ?>
-  <form action="<?php echo base_url("experiences/{$experience_name}/{$day}") ?>" method="post">
+  <form action="<?php echo base_url("experiences/view/{$experience_name}/{$day}") ?>" method="post">
     <div class="mt-5 text-center">
       <p class="m-0">Rate your experience. Was it winner worthy?</p>
       <div class="my-2">

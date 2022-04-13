@@ -39,6 +39,27 @@ class Experiences extends CI_Controller
     $this->load->view('landing/landing_view', $data);
   }
 
+  public function view($experience_name, $day)
+  {
+    $js = array(
+      'js/experiences_rate.js'
+    );
+
+    $data = array(
+      '_js' => $js,
+      'day' => $day,
+      'experience_name' => $experience_name,
+      'view' => "experiences/{$experience_name}/{$experience_name}_view",
+    );
+
+    if ($this->input->post()) {
+      $this->rate();
+      $data['is_rated'] = true;
+    }
+
+    $this->load->view('landing/landing_view', $data);
+  }
+
   private function rate()
   {
     $this->load->model('Users_rates_model');
