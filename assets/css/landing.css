@@ -308,7 +308,7 @@ a.extras-link:hover {
 
   main.bg-more {
     background-image: url("../images/bg/bg-more-mobile.jpeg");
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
 
