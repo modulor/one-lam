@@ -15,9 +15,16 @@ class Register extends CI_Controller
       if (!$this->is_form_valid()) {
         $this->load->view('register/register_index_view');
       } else {
-        $this->create_user();
-        $this->create_user_session();
-        $this->go_to_avatar_creation();
+        if ($this->is_a_user_allowed_to_register()) {
+          $this->create_user();
+          $this->create_user_session();
+          $this->go_to_avatar_creation();
+        } else {
+          $this->load->view(
+            'register/register_index_view',
+            array('is_a_user_not_allowed' => true)
+          );
+        }
       }
     } else {
       $this->load->view('register/register_index_view');
@@ -83,5 +90,13 @@ class Register extends CI_Controller
   private function go_to_avatar_creation()
   {
     redirect(base_url('avatar/customize'), 'refresh');
+  }
+
+  private function is_a_user_allowed_to_register()
+  {
+    $this->load->model('Users_allowed_model');
+    $user_allowed = $this->Users_allowed_model->get_by_email($_POST['email']);
+
+    return $user_allowed ? true : false;
   }
 }
