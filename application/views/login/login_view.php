@@ -22,7 +22,7 @@
               <div class="event-title">
                 <h1>ONE LAM</h1>
                 <h2>CONFERENCE</h2>
-                <h3>LET'S WIN</h3>
+                <h3>WIN LAM</h3>
               </div>
               <?php if (isset($error_message)) : ?>
                 <p class="text-danger text-center m-0 p-0"><?php echo $error_message ?></p>
