@@ -15,15 +15,19 @@ class Register extends CI_Controller
       if (!$this->is_form_valid()) {
         $this->load->view('register/register_index_view');
       } else {
-        if ($this->is_a_user_allowed_to_register()) {
+        $validate_register = $this->validate_if_user_can_register();
+
+        if ($validate_register['user_can_register']) {
           $this->create_user();
           $this->create_user_session();
           $this->go_to_avatar_creation();
         } else {
-          $this->load->view(
-            'register/register_index_view',
-            array('is_a_user_not_allowed' => true)
+          $data = array(
+            'is_a_user_not_allowed' => true,
+            'message' => $validate_register['message'],
           );
+
+          $this->load->view('register/register_index_view', $data);
         }
       }
     } else {
@@ -92,11 +96,41 @@ class Register extends CI_Controller
     redirect(base_url('avatar/customize'), 'refresh');
   }
 
-  private function is_a_user_allowed_to_register()
+  private function validate_if_user_can_register()
+  {
+    $user_allowed_to_register = $this->user_allowed_to_register();
+    $user_not_registered_yet = $this->user_not_registered_yet();
+
+    if ($user_allowed_to_register && $user_not_registered_yet) {
+      return array(
+        'user_can_register' => true,
+        'message' => '',
+      );
+    } else {
+      $message = 'Sorry, your mail is not allowed to register';
+      if (!$user_not_registered_yet) {
+        $message = 'Your mail is already registered';
+      }
+
+      return array(
+        'user_can_register' => false,
+        'message' => $message,
+      );
+    }
+  }
+
+  private function user_allowed_to_register()
   {
     $this->load->model('Users_allowed_model');
     $user_allowed = $this->Users_allowed_model->get_by_email($_POST['email']);
 
     return $user_allowed ? true : false;
+  }
+
+  private function user_not_registered_yet()
+  {
+    $user = $this->Users_model->get_by_email($_POST['email']);
+
+    return $user ? false : true;
   }
 }

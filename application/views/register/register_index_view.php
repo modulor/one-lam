@@ -23,7 +23,7 @@
               <p class="mb-5">Register your profile and customize your winner Avatar</p>
               <div class="text-danger text-center">
                 <?php echo validation_errors() ?>
-                <?php echo isset($is_a_user_not_allowed) ? 'Sorry, your mail is not registered' : ''; ?>
+                <?php echo isset($is_a_user_not_allowed) ? $message : ''; ?>
               </div>
               <form action="<?php echo base_url('register') ?>" method="post">
                 <div class="mb-5">
