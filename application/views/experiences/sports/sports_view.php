@@ -4,7 +4,7 @@
       <div class="card">
         <div class="card-body">
           <h6>Daily Experience</h6>
-          <h1>WINNNING IN SPORTS</h1>
+          <h1 class="mb-4">WINNNING IN SPORTS</h1>
           <?php $this->load->view("experiences/sports/sports_day_{$day}_view") ?>
           <?php
           $params = array(
