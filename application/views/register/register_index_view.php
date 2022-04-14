@@ -16,37 +16,43 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-10 offset-md-1">
           <div class="card">
             <div class="card-body">
-              <h1>Register</h1>
-              <p class="mb-5">Register your profile and customize your winner Avatar</p>
-              <div class="text-danger text-center">
-                <?php echo validation_errors() ?>
-                <?php echo isset($is_a_user_not_allowed) ? $message : ''; ?>
+              <div class="row">
+                <div class="col-md-6">
+                  <h1 class="register-title">Register</h1>
+                  <p class="mb-5 register-subtitle">Register your profile and customize your winner Avatar</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="text-danger text-center">
+                    <?php echo validation_errors() ?>
+                    <?php echo isset($is_a_user_not_allowed) ? $message : ''; ?>
+                  </div>
+                  <form action="<?php echo base_url('register') ?>" method="post" class="register">
+                    <div class="mb-5">
+                      <label for="email">Mail</label>
+                      <input type="email" name="email" class="form-control" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
+                    </div>
+                    <div class="mb-5">
+                      <label for="alias">Create your Alias</label>
+                      <input type="text" name="alias" class="form-control" <?php echo isset($_POST['alias']) ? $_POST['alias'] : '' ?>>
+                    </div>
+                    <div class="mb-5 form-check">
+                      <input type="checkbox" class="form-check-input" name="accept_terms_and_conditions">
+                      <label class="form-check-label" for="accept_terms_and_conditions">
+                        <a href="<?php echo base_url('terms-and-conditions.pdf') ?>" class="terms-and-conditions-link" target="_blank">
+                          Terms & Conditions
+                        </a>
+                      </label>
+                    </div>
+                    <div class="text-end button-area">
+                      <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                      <button type="submit" class="btn btn-link btn-register">Create your Avatar </button>
+                    </div>
+                  </form>
+                </div>
               </div>
-              <form action="<?php echo base_url('register') ?>" method="post">
-                <div class="mb-5">
-                  <label for="email">Mail</label>
-                  <input type="email" name="email" class="form-control" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>">
-                </div>
-                <div class="mb-5">
-                  <label for="alias">Create your Alias</label>
-                  <input type="text" name="alias" class="form-control" <?php echo isset($_POST['alias']) ? $_POST['alias'] : '' ?>>
-                </div>
-                <div class="mb-5 form-check">
-                  <input type="checkbox" class="form-check-input" name="accept_terms_and_conditions">
-                  <label class="form-check-label" for="accept_terms_and_conditions">
-                    <a href="<?php echo base_url('terms-and-conditions.pdf') ?>" class="terms-and-conditions-link" target="_blank">
-                      Terms & Conditions
-                    </a>
-                  </label>
-                </div>
-                <div class="text-end button-area">
-                  <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-                  <button type="submit" class="btn btn-link btn-register">Create your Avatar </button>
-                </div>
-              </form>
             </div>
             <img src="<?php echo base_url('assets/images/register-pink-form.png') ?>" alt="home yellow form" class="card-img-bottom">
           </div>

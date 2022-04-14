@@ -42,3 +42,25 @@ main {
     background-image: url("../images/bg/bg-register-mobile.jpeg");
   }
 }
+
+@media (min-width: 1199px) {
+  h1.register-title {
+    margin-top: 130px;
+    font-size: 2.5em;
+  }
+
+  p.register-subtitle,
+  h1.register-title {
+    padding-left: 30px;
+  }
+
+  .card-img-bottom {
+    bottom: -130px;
+    width: 15%;
+  }
+
+  form.register {
+    margin-top: 70px;
+    padding-right: 30px;
+  }
+}
