@@ -20,7 +20,22 @@
         </a>
       </div>
     </div>
-    <a href="<?php echo base_url('experiences') ?>">Daily Experience</a>
+    <button class="btn btn-link btn-link-menu" type="button" data-bs-toggle="collapse" data-bs-target="#experience-collapse" aria-expanded="false" aria-controls="experience-collapse">
+      <i class="fa-solid fa-plus"></i> Daily Experience
+    </button>
+    <div class="collapse" id="experience-collapse">
+      <div class="p-4">
+        <a href="<?php echo base_url('experiences/view/sports/1') ?>" class="link-submenu">
+          <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Sports
+        </a>
+        <a href="<?php echo base_url('experiences/view/business/1') ?>" class="link-submenu">
+          <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Business
+        </a>
+        <a href="<?php echo base_url('experiences/view/connect/1') ?>" class="link-submenu">
+          <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Connect
+        </a>
+      </div>
+    </div>
     <a href="<?php echo base_url('more') ?>">More</a>
     <div class="extra-material-area text-end">
       <a href="<?php echo base_url('extras') ?>" class="link-extra-material">
