@@ -65,3 +65,29 @@ form {
     background-image: url("../images/bg/bg-home-mobile.jpeg");
   }
 }
+
+@media (min-width: 1199px) {
+  form.login {
+    margin-top: 150px;
+  }
+
+  .col-form-area {
+    padding-right: 50px;
+  }
+
+  .form-control-email-alias {
+    text-align: left;
+  }
+
+  .card-img-bottom {
+    position: absolute;
+    bottom: -85px;
+    left: 30px;
+    width: 15%;
+  }
+
+  .event-title {
+    text-align: center;
+    margin: 100px 0 0 0;
+  }
+}

@@ -16,32 +16,37 @@
   <main>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-10 offset-md-1">
           <div class="card">
             <div class="card-body">
-              <div class="event-title">
-                <h1>ONE LAM</h1>
-                <h2>CONFERENCE</h2>
-                <h3>WIN LAM</h3>
-              </div>
-              <?php if (isset($error_message)) : ?>
-                <p class="text-danger text-center m-0 p-0"><?php echo $error_message ?></p>
-              <?php endif; ?>
-              <form action="<?php echo base_url('login') ?>" method="post">
-                <div class="form-group mb-4">
-                  <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Write your mail or alias" autofocus>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="event-title">
+                    <h1>ONE LAM</h1>
+                    <h2>CONFERENCE</h2>
+                    <h3>LET'S WIN</h3>
+                  </div>
                 </div>
-                <p class="text-end">
-                  <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-                  <button type="submit" class="btn btn-link btn-login ms-2">Log in</button>
-                </p>
-              </form>
-              <p class="text-center">No account?</p>
-              <p class="text-end">
-                <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-                <a href="<?php echo base_url('register') ?>" class="link-register">Register now!</a>
-              </p>
-
+                <div class="col-md-6 col-form-area">
+                  <?php if (isset($error_message)) : ?>
+                    <p class="text-danger text-center m-0 p-0"><?php echo $error_message ?></p>
+                  <?php endif; ?>
+                  <form action="<?php echo base_url('login') ?>" method="post" class="login">
+                    <div class="form-group mb-4">
+                      <input type="text" name="email_alias" class=" form-control form-control-email-alias" placeholder="Write your mail or alias" autofocus>
+                    </div>
+                    <p class="text-end">
+                      <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                      <button type="submit" class="btn btn-link btn-login ms-2">Log in</button>
+                    </p>
+                  </form>
+                  <p class="text-center">No account?</p>
+                  <p class="text-end">
+                    <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                    <a href="<?php echo base_url('register') ?>" class="link-register">Register now!</a>
+                  </p>
+                </div>
+              </div>
             </div>
             <img src="<?php echo base_url('assets/images/login-yellow-form.png') ?>" alt="home yellow form" class="card-img-bottom">
           </div>
