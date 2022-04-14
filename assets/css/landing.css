@@ -290,7 +290,7 @@ a.extras-link:hover {
 @media (max-width: 575.98px) {
   .user-avatar-preview-img {
     position: absolute;
-    top: 280px;
+    top: 216px;
     left: 45px;
     height: 300px;
   }
@@ -316,5 +316,23 @@ a.extras-link:hover {
     background-image: url("../images/bg/bg-extras-mobile.jpeg");
     height: 88vh;
     width: 100%;
+  }
+}
+
+@media (min-width: 1199px) {
+  .bg-landing-welcome {
+    background-image: url("../images/bg/bg-extras-desktop.jpeg");
+    height: 90vh;
+    width: 100%;
+  }
+
+  h1.landing-welcome-title {
+    font-size: 2.5em;
+    margin-top: 110px;
+    padding-left: 40px;
+  }
+
+  .user-avatar-preview-img {
+    top: 40px;
   }
 }
