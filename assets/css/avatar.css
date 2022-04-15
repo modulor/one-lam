@@ -1,10 +1,3 @@
-.customize-area,
-.col-avatar-step-success {
-  padding: 50px 10px;
-  height: 750px;
-  max-height: 750px;
-}
-
 .col-avatar-step-1,
 .col-avatar-step-2,
 .col-avatar-step-3,
@@ -38,11 +31,6 @@
 .col-avatar-step-5 {
   background-position: 220px -40px;
   background-image: url("../images/avatar/avatar-form-step-5.png");
-}
-
-.col-avatar-step-success {
-  background-position: 220px -56px;
-  background-image: url("../images/avatar/avatar-form-step-success.png");
 }
 
 .btn-next,
@@ -85,8 +73,8 @@
 .avatar-badge-selected-success,
 .avatar-background-selected-success {
   position: absolute;
-  top: 232px;
-  left: 564px;
+  top: 69px;
+  left: 634px;
   width: 300px;
   height: 300px;
 }
@@ -96,7 +84,7 @@
 .avatar-accessory-selected,
 .avatar-badge-selected,
 .avatar-background-selected {
-  top: 198px;
+  top: 89px;
 }
 
 .avatar-form-step-success-2 {
@@ -104,9 +92,30 @@
   bottom: -45px;
   left: 630px;
   width: 12%;
+  display: none;
 }
 
 @media (max-width: 575.98px) {
+  .col-avatar-step-success {
+    background-position: 3px -50px;
+    background-image: url("../images/avatar/avatar-form-step-success.png");
+  }
+
+  .col-avatar-step-success {
+    padding: 50px 10px;
+    height: 750px;
+    max-height: 750px;
+  }
+
+  .card {
+    background-color: inherit;
+    border-width: 0;
+  }
+
+  h1#main-title {
+    margin-top: 50px;
+  }
+
   .img-form {
     position: absolute;
     top: -60px;
@@ -126,8 +135,8 @@
   .avatar-badge-selected-success,
   .avatar-background-selected-success {
     position: absolute;
-    top: 232px;
-    left: 45px;
+    top: 198px;
+    left: 23px;
     width: 300px;
     height: 300px;
   }
@@ -151,5 +160,54 @@
     bottom: -45px;
     left: 100px;
     width: 40%;
+  }
+}
+
+@media (min-width: 1199px) {
+  .main-avatar-customize {
+    padding-top: 80px;
+  }
+
+  .bg-avatar-customize-step-1 {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .bg-avatar-customize-step-1 {
+    background-image: url("../images/bg/bg-landing-desktop.jpeg");
+  }
+
+  h1#main-title {
+    font-size: 2.5em;
+    margin-top: 100px;
+    padding: 0 20px 0 20px;
+  }
+
+  p#avatar_instructions {
+    padding: 0 60px 0 20px;
+  }
+
+  .avatar-steps-area {
+    padding: 70px 20px 0 0;
+  }
+
+  .bg-avatar-create {
+    background-image: url("../images/bg/bg-home-desktop.jpeg");
+    height: 100vh;
+    width: 100%;
+  }
+
+  .avatar-success-subtitle-area {
+    margin-top: 90px;
+    padding-left: 40px;
+  }
+
+  .avatar-success-title-area {
+    font-size: 2.5em;
+    padding-left: 40px;
+  }
+
+  .avatar-success-preview-desktop {
+    padding: 50px 40px 50px 0;
   }
 }

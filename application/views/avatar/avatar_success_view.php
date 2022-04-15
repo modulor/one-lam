@@ -14,30 +14,42 @@
 </head>
 
 <body>
-  <main>
+  <main class="bg-avatar-create main-avatar-customize">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-10 offset-md-1">
           <div class="col-avatar-step-success">
-            <p class="mb-1">You are a step closer to win, <?php echo $this->session->userdata('alias') ?></p>
-            <h1>That's it! here's a digital winner version of you!</h1>
-            <div class="row mb-5">
-              <div class="col-12 text-center avatar-preview">
-                <img class="avatar-background-selected-success" src="<?php echo base_url($avatar_images['background']) ?>" alt="background selected">
-                <img class="avatar-body-selected-success" src="<?php echo base_url($avatar_images['body']) ?>" alt="avatar body">
-                <img class="avatar-eyes-selected-success" src="<?php echo base_url($avatar_images['eyes']) ?>" alt="eyes selected">
-                <img class="avatar-accessory-selected-success" src="<?php echo base_url($avatar_images['accessory']) ?>" alt="eyes saccessory">
-                <img class="avatar-badge-selected-success" src="<?php echo base_url($avatar_images['badge']) ?>" alt="badge selected">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="mb-1 avatar-success-subtitle-area">You are a step closer to win, <?php echo $this->session->userdata('alias') ?></p>
+                    <h1 class="avatar-success-title-area">That's it! here's a digital winner version of you!</h1>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="avatar-success-preview-desktop">
+                      <div class="row mb-5">
+                        <div class="col-12 text-center avatar-preview">
+                          <img class="avatar-background-selected-success" src="<?php echo base_url($avatar_images['background']) ?>" alt="background selected">
+                          <img class="avatar-body-selected-success" src="<?php echo base_url($avatar_images['body']) ?>" alt="avatar body">
+                          <img class="avatar-eyes-selected-success" src="<?php echo base_url($avatar_images['eyes']) ?>" alt="eyes selected">
+                          <img class="avatar-accessory-selected-success" src="<?php echo base_url($avatar_images['accessory']) ?>" alt="eyes saccessory">
+                          <img class="avatar-badge-selected-success" src="<?php echo base_url($avatar_images['badge']) ?>" alt="badge selected">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 text-end">
+                          <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                          <a href="<?php echo base_url('landing') ?>" class="btn btn-link btn-next ms-2">Next step</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <img src="<?php echo base_url('assets/images/avatar/avatar-form-step-success-2.png') ?>" alt="home yellow form" class="avatar-form-step-success-2">
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12 text-end">
-              <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-              <a href="<?php echo base_url('landing') ?>" class="btn btn-link btn-next ms-2">Next step</a>
-            </div>
-          </div>
-          <img src="<?php echo base_url('assets/images/avatar/avatar-form-step-success-2.png') ?>" alt="home yellow form" class="avatar-form-step-success-2">
         </div>
       </div>
     </div>

@@ -14,37 +14,47 @@
 </head>
 
 <body>
-  <main>
+  <main class="main-avatar-customize bg-avatar-customize-step-1">
     <div class="container">
       <div class="row">
-        <div id="col-avatar-steps" class="col-md-4 offset-md-4 col-avatar-step-1">
-          <div class="customize-area">
-            <h1 id="main-title">All winners have an Avatar, Customize yours!</h1>
-            <p id="avatar_instructions">Choose your favorite winner option</p>
-            <?php
-            $this->load->view('avatar/avatar_steps_view');
-            ?>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <i id="circle-step-1" class="fa-solid fa-circle"></i>
-              <i id="circle-step-2" class="fa-regular fa-circle"></i>
-              <i id="circle-step-3" class="fa-regular fa-circle"></i>
-              <i id="circle-step-4" class="fa-regular fa-circle"></i>
-              <i id="circle-step-5" class="fa-regular fa-circle"></i>
+        <div id="col-avatar-steps" class="col-md-10 offset-md-1 col-avatar-step-1">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1 id="main-title">All winners have an Avatar, Customize yours!</h1>
+                  <p id="avatar_instructions">Choose your favorite winner option</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="avatar-steps-area">
+                    <?php
+                    $this->load->view('avatar/avatar_steps_view');
+                    ?>
+                    <div class="row mt-4">
+                      <div class="col-6">
+                        <i id="circle-step-1" class="fa-solid fa-circle"></i>
+                        <i id="circle-step-2" class="fa-regular fa-circle"></i>
+                        <i id="circle-step-3" class="fa-regular fa-circle"></i>
+                        <i id="circle-step-4" class="fa-regular fa-circle"></i>
+                        <i id="circle-step-5" class="fa-regular fa-circle"></i>
+                      </div>
+                      <div class="col-6 text-end">
+                        <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
+                        <button id="btn-next" onclick="nextStep();" disabled type="button" class="btn btn-link btn-next ms-2">Next step</button>
+                      </div>
+                      <form id="form_avatar" action="<?php echo base_url('avatar/create') ?>" method="post">
+                        <input type="hidden" id="current_step" name="current_step" value="1">
+                        <input type="hidden" id="avatar_body" name="avatar_body" value="">
+                        <input type="hidden" id="avatar_eyes" name="avatar_eyes" value="1">
+                        <input type="hidden" id="avatar_accessory" name="avatar_accessory" value="1">
+                        <input type="hidden" id="avatar_badge" name="avatar_badge" value="1">
+                        <input type="hidden" id="avatar_background" name="avatar_background" value="1">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-6 text-end">
-              <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
-              <button id="btn-next" onclick="nextStep();" disabled type="button" class="btn btn-link btn-next ms-2">Next step</button>
-            </div>
-            <form id="form_avatar" action="<?php echo base_url('avatar/create') ?>" method="post">
-              <input type="hidden" id="current_step" name="current_step" value="1">
-              <input type="hidden" id="avatar_body" name="avatar_body" value="">
-              <input type="hidden" id="avatar_eyes" name="avatar_eyes" value="1">
-              <input type="hidden" id="avatar_accessory" name="avatar_accessory" value="1">
-              <input type="hidden" id="avatar_badge" name="avatar_badge" value="1">
-              <input type="hidden" id="avatar_background" name="avatar_background" value="1">
-            </form>
           </div>
         </div>
       </div>
