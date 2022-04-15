@@ -110,7 +110,6 @@ a.link-extra-material {
 /* landing index */
 
 main.bg-landing {
-  background-image: url("../images/bg/bg-home-desktop.jpeg");
   width: 100%;
 }
 
@@ -321,6 +320,7 @@ a.extras-link:hover {
 @media (min-width: 1199px) {
   .bg-landing {
     height: 91vh;
+    background-image: url("../images/bg/bg-landing-desktop.jpeg");
   }
 
   .bg-landing-welcome {
