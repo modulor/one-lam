@@ -38,8 +38,8 @@
                 ?>
               </div>
             </div>
-            <div class="row d-block d-sm-none">
-              <div class="col-3">
+            <div class="row">
+              <div class="col-3 d-block d-sm-none">
                 <div class="d-grid gap-2">
                   <a href="<?php echo base_url('schedule/day/25') ?>" class="btn <?php echo $day == 25 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
                     <span class="schedule-date">25</span><br>
@@ -47,7 +47,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-3 d-block d-sm-none">
                 <div class="d-grid gap-2">
                   <a href="<?php echo base_url('schedule/day/26') ?>" class="btn <?php echo $day == 26 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
                     <span class="schedule-date">26</span><br>
@@ -55,7 +55,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-3 d-block d-sm-none">
                 <div class="d-grid gap-2">
                   <a href="<?php echo base_url('schedule/day/27') ?>" class="btn <?php echo $day == 27 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
                     <span class="schedule-date">27</span><br>
@@ -63,7 +63,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-3 d-block d-sm-none">
                 <div class="d-grid gap-2">
                   <a href="<?php echo base_url('schedule/day/28') ?>" class="btn <?php echo $day == 28 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
                     <span class="schedule-date">28</span><br>
