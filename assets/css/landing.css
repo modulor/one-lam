@@ -190,7 +190,7 @@ a.btn-border-black {
 
 main.bg-experiences {
   background-image: url("../images/bg/bg-experiences-desktop.jpeg");
-  height: 88vh;
+  height: 91vh;
   width: 100%;
 }
 
@@ -286,6 +286,24 @@ a.extras-link:hover {
 }
 
 @media (max-width: 575.98px) {
+  .bg-experiences-sports {
+    background-image: url("../images/bg/bg-more-mobile.jpeg");
+    width: 100%;
+    height: 91vh;
+  }
+
+  .bg-experiences-business {
+    background-image: url("../images/bg/bg-landing-mobile.jpeg");
+    width: 100%;
+    height: 91vh;
+  }
+
+  .bg-experiences-connect {
+    background-image: url("../images/bg/bg-home-mobile.jpeg");
+    width: 100%;
+    height: 91vh;
+  }
+
   .user-avatar-preview-img {
     position: absolute;
     top: 216px;
@@ -318,6 +336,24 @@ a.extras-link:hover {
 }
 
 @media (min-width: 1199px) {
+  .bg-experiences-sports {
+    background-image: url("../images/bg/bg-more-desktop.jpeg");
+    width: 100%;
+    height: 91vh;
+  }
+
+  .bg-experiences-business {
+    background-image: url("../images/bg/bg-landing-desktop.jpeg");
+    width: 100%;
+    height: 91vh;
+  }
+
+  .bg-experiences-connect {
+    background-image: url("../images/bg/bg-home-desktop.jpeg");
+    width: 100%;
+    height: 91vh;
+  }
+
   .bg-landing {
     height: 91vh;
     background-image: url("../images/bg/bg-landing-desktop.jpeg");
