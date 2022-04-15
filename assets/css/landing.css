@@ -111,7 +111,6 @@ a.link-extra-material {
 
 main.bg-landing {
   background-image: url("../images/bg/bg-home-desktop.jpeg");
-  height: 88vh;
   width: 100%;
 }
 
@@ -320,6 +319,10 @@ a.extras-link:hover {
 }
 
 @media (min-width: 1199px) {
+  .bg-landing {
+    height: 91vh;
+  }
+
   .bg-landing-welcome {
     background-image: url("../images/bg/bg-extras-desktop.jpeg");
     height: 90vh;
@@ -338,5 +341,20 @@ a.extras-link:hover {
 
   h1.schedule-index-title {
     margin: 30px 0;
+  }
+
+  a.link-extra-material {
+    font-size: 18px;
+    font-family: "AdihausDIN" !important;
+    color: black;
+    text-decoration: none;
+  }
+
+  .extra-material-area-landing {
+    background-size: 175px;
+  }
+
+  .extra-material-area {
+    padding: 55px 40px 55px 0;
   }
 }
