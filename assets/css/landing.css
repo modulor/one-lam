@@ -335,4 +335,8 @@ a.extras-link:hover {
   .user-avatar-preview-img {
     top: 40px;
   }
+
+  h1.schedule-index-title {
+    margin: 30px 0;
+  }
 }
