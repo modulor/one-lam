@@ -10,7 +10,7 @@
               </div>
               <div class="col-9">
                 <a href="<?php echo base_url('extras') ?>" class="extras-link">
-                  Galería de fotos
+                  Photo Gallery
                 </a>
               </div>
             </div>
@@ -22,7 +22,7 @@
               </div>
               <div class="col-9">
                 <a href="<?php echo base_url('extras') ?>" class="extras-link">
-                  Archivos
+                  Files
                 </a>
               </div>
             </div>
