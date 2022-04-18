@@ -91,4 +91,9 @@ class Avatar extends CI_Controller
 
     $this->session->set_userdata($user_session);
   }
+
+  public function list()
+  {
+    $this->load->view('avatar/avatar_list_view');
+  }
 }

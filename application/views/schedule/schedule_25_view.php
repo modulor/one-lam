@@ -3,14 +3,14 @@
     <td></td>
     <td>
       <h4>MONDAY APRIL 25<sup><small>TH</small></sup></h4>
-      <h6>WINNING THROUGH LEADER</h6>
+      <h6>WINNING THROUGH LEADERSHIP</h6>
     </td>
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-10-px text-start">
       07:30 -<br>08:30
     </td>
-    <td class="schedule-bg-green">We are rooted in sports</td>
+    <td class="schedule-bg-green">'We are rooted in sports'</td>
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-10-px text-start">
@@ -24,7 +24,7 @@
       11:00 -<br>
       12:30
     </td>
-    <td class="schedule-bg-gray">winning in lam - check in where do we stand today?</td>
+    <td class="schedule-bg-gray">winning in lam - check in<br><br>where do we stand today?</td>
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-10-px text-start">
@@ -38,7 +38,7 @@
       14:00 -<br>
       17:30
     </td>
-    <td class="schedule-bg-pink">winning through culture how will we evolve a winning culture by living our new values?</td>
+    <td class="schedule-bg-pink">winning through culture<br><br>how will we evolve a winning culture by living our new values?</td>
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-10-px text-start">

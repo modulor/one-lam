@@ -18,4 +18,9 @@ class Users_model extends CI_Model
   {
     $this->db->insert($this->table, $data);
   }
+
+  public function get_all()
+  {
+    return $this->db->get($this->table)->result();
+  }
 }
