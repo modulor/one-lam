@@ -1,4 +1,4 @@
-<main class="bg-landing pt-4">
+<main class="bg-schedule-index pt-4">
   <div class="container">
     <div class="row">
       <div class="col-md-8">

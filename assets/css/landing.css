@@ -333,6 +333,12 @@ a.extras-link:hover {
     height: 88vh;
     width: 100%;
   }
+
+  .bg-schedule-index {
+    background-image: url("../images/bg/bg-landing-mobile.jpeg");
+    height: 91vh;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1199px) {
@@ -392,5 +398,11 @@ a.extras-link:hover {
 
   .extra-material-area {
     padding: 55px 40px 55px 0;
+  }
+
+  .bg-schedule-index {
+    background-image: url("../images/bg/bg-landing-desktop.jpeg");
+    height: 91vh;
+    width: 100%;
   }
 }
