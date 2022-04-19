@@ -1,3 +1,6 @@
 <h5>WINBOXING</h5>
 <p>ARE YOU READY TO RUMBLE?</p>
-<p>We'll train like a champ with this experience. You are already a winner in business and strategy, let's win also inside the ring with the techniques that you already use from your professional career.</p>
+<p>We'll train like a champ with this experience. Let's push together through this final exercise.</p>
+<p>Date: April 28th<br>
+  Where: Under the bridge<br>
+  Time: 17:00 - 17:45</p>

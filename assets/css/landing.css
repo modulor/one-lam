@@ -289,7 +289,7 @@ a.extras-link:hover {
   .bg-experiences-sports {
     background-image: url("../images/bg/bg-more-mobile.jpeg");
     width: 100%;
-    height: 91vh;
+    height: 100%;
   }
 
   .bg-experiences-business {
@@ -345,7 +345,7 @@ a.extras-link:hover {
   .bg-experiences-sports {
     background-image: url("../images/bg/bg-more-desktop.jpeg");
     width: 100%;
-    height: 91vh;
+    height: 100%;
   }
 
   .bg-experiences-business {
