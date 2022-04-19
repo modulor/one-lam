@@ -20,8 +20,13 @@
             <i name="star" id="star_5" onclick="selectStar(5);" class="fa-regular fa-star"></i>
             <input type="hidden" name="total_stars" id="total_stars" value="0">
           </div>
-          <div class="mb-2">
-            <textarea class="form-control" rows="3" name="comments" placeholder="Leave us your comments..."></textarea>
+          <div class="mb-2 text-start">
+            <label for="like_most">What do you like the most?</label>
+            <textarea class="form-control" rows="3" name="like_most"></textarea>
+          </div>
+          <div class="mb-2 text-start">
+            <label for="rather_change">What would you rather change?</label>
+            <textarea class="form-control" rows="3" name="rather_change"></textarea>
           </div>
           <div class="d-grid gap-2">
             <input type="hidden" name="experience_name" value="<?php echo $experience_name ?>">
