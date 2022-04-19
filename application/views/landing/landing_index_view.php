@@ -10,7 +10,7 @@
               </div>
               <div class="col-9 col-md-10">
                 <a href="<?php echo base_url('schedule/day/25') ?>" class="btn btn-link btn-link-landing-index">
-                  Winners Agenda
+                  Winners agenda
                 </a>
               </div>
             </div>
@@ -20,7 +20,7 @@
               </div>
               <div class="col-9 col-md-10">
                 <a href="<?php echo base_url('experiences') ?>" class="btn btn-link btn-link-landing-index">
-                  Daily Experience
+                  Daily experience
                 </a>
               </div>
             </div>

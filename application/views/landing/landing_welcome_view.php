@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-md-6">
               <h1 class="landing-welcome-title">
-                Welcome back, <?php echo $this->session->userdata('alias') ?>, victory is right ahead!
+                Welcome back, <?php echo $this->session->userdata('alias') ?>! Winning is right ahead!
               </h1>
             </div>
             <div class="col-md-6">

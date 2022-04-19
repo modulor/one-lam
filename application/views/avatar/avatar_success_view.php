@@ -24,7 +24,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <p class="mb-1 avatar-success-subtitle-area">You are a step closer to win, <?php echo $this->session->userdata('alias') ?></p>
-                    <h1 class="avatar-success-title-area">That's it! here's a digital winner version of you!</h1>
+                    <h1 class="avatar-success-title-area">That's it! here's a digital version of you!</h1>
                   </div>
                   <div class="col-md-6">
                     <div class="avatar-success-preview-desktop">

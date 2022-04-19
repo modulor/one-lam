@@ -24,7 +24,7 @@
                   <div class="event-title">
                     <h1>ONE LAM</h1>
                     <h2>CONFERENCE</h2>
-                    <h3>LET'S WIN</h3>
+                    <h3>WIN LAM</h3>
                   </div>
                 </div>
                 <div class="col-md-6 col-form-area">

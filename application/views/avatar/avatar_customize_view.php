@@ -22,8 +22,8 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6">
-                  <h1 id="main-title">All winners have an Avatar, Customize yours!</h1>
-                  <p id="avatar_instructions">Choose your favorite winner option</p>
+                  <h1 id="main-title">All winners have an avatar, customize yours!</h1>
+                  <p id="avatar_instructions">Choose your winning option</p>
                 </div>
                 <div class="col-md-6">
                   <div class="avatar-steps-area">
@@ -137,7 +137,7 @@
 
     function actionsForStepTwo() {
       $('#main-title').html('Customize your Avatar!');
-      $('#avatar_instructions').html('Choose your winner');
+      $('#avatar_instructions').html('Choose your favorite');
       $('#col-avatar-steps').removeClass('col-avatar-step-1');
       $('#col-avatar-steps').addClass('col-avatar-step-2');
     }

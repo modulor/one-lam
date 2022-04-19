@@ -22,7 +22,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <h1 class="register-title">Register</h1>
-                  <p class="mb-5 register-subtitle">Register your profile and customize your winner Avatar</p>
+                  <p class="mb-5 register-subtitle">Register your profile and customize your winner avatar</p>
                 </div>
                 <div class="col-md-6">
                   <div class="text-danger text-center">
