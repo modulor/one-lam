@@ -25,4 +25,23 @@ class Users_Avatars_model extends CI_Model
   {
     return $this->db->where('users_id', $users_id)->get($this->table)->row();
   }
+
+  public function get_users_list_with_avatars()
+  {
+    $fields = 'u.id, u.email, ua.firstname, ua.lastname, uav.body, uav.eyes,';
+    $fields .= 'uav.accessory, uav.badge, uav.background';
+
+    return $this->db->select($fields)
+      ->from('users_allowed ua')
+      ->join('users u', 'u.email = ua.email')
+      ->join('users_avatars uav', 'uav.users_id = u.id')
+      ->get()
+      ->result();
+
+
+    // select 
+    // from users_allowed ua
+    // join users u on u.email = ua.email
+    // join users_avatars uav on uav.users_id = u.id;
+  }
 }
