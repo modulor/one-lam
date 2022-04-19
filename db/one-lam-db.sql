@@ -29,7 +29,7 @@ CREATE TABLE `users` (
   `created_at` datetime DEFAULT NULL,
   `active` int DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'mario@gmail.com','modulor','2022-04-04 10:55:00',1),(3,'evelyn@gmail.com','eve','2022-04-04 15:29:46',1),(4,'alberto@gmail.com','alberto','2022-04-05 15:37:47',1),(5,'bus@gmail.com','bus','2022-04-05 16:12:20',1),(6,'modulor@gmail.com','modulor','2022-04-05 16:23:06',1),(7,'juan@gmail.com','yon','2022-04-06 09:08:18',1),(8,'guarumo@gmail.com','guarumo','2022-04-06 16:07:32',1),(9,'juno@gmail.com','juno','2022-04-06 16:08:25',1),(10,'kike@gmail.com','kike','2022-04-06 16:09:35',1),(11,'gio@gmail.com','gio','2022-04-09 11:42:01',1),(12,'fer@gmail.com','fer','2022-04-09 11:58:19',1),(13,'chrsm@gmail.com','chrism','2022-04-09 13:09:59',1),(14,'pepe@gmail.com','pepe','2022-04-12 08:43:43',1),(15,'jony@gmail.com','jony','2022-04-12 09:11:27',1),(16,'kanguro@gmail.com','kanguro','2022-04-12 09:28:32',1),(17,'jami@gmail.com','jami','2022-04-13 11:51:15',1),(18,'marlene.muhlbacher@adidas.com','marlene','2022-04-13 13:06:01',1),(19,'marlene.muhlbacher@adidas.com','mal','2022-04-13 13:07:36',1),(20,'andrea.pellicani@adidas.com','apellicani','2022-04-13 13:11:13',1),(21,'pedro.mello@adidas.com','mello','2022-04-13 13:11:34',1),(22,'pedro.mello@adidas.com','mello','2022-04-13 13:22:27',1),(23,'pedro.mello@adidas.com','mello','2022-04-13 13:22:46',1),(24,'fernanda.gazal@adidas.com','fergazal','2022-04-14 17:54:49',1),(25,'joao.meyer@adidas.com','joao','2022-04-15 09:00:38',1);
+INSERT INTO `users` VALUES (26,'juliet.aragones@adidas.com','juliet','2022-04-19 10:58:36',1),(27,'santiago.morenohueyo@adidas.com','hueyo','2022-04-19 10:59:34',1);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -56,7 +56,7 @@ CREATE TABLE `users_allowed` (
   `lastname` varchar(355) DEFAULT NULL,
   `position` varchar(355) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=132 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=132 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -86,7 +86,7 @@ CREATE TABLE `users_avatars` (
   `background` int DEFAULT NULL,
   `created_at` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -95,7 +95,7 @@ CREATE TABLE `users_avatars` (
 
 LOCK TABLES `users_avatars` WRITE;
 /*!40000 ALTER TABLE `users_avatars` DISABLE KEYS */;
-INSERT INTO `users_avatars` VALUES (3,1,2,2,2,2,2,'2022-04-05 12:41:52'),(4,4,1,1,2,2,2,'2022-04-05 15:38:07'),(5,5,2,2,2,2,2,'2022-04-05 16:12:30'),(6,6,2,2,2,2,2,'2022-04-05 16:47:28'),(7,7,2,2,2,2,2,'2022-04-06 09:08:28'),(8,8,1,2,1,2,1,'2022-04-06 16:07:44'),(9,9,2,1,1,1,1,'2022-04-06 16:08:31'),(10,10,2,2,2,2,2,'2022-04-06 16:09:43'),(11,11,4,4,5,5,4,'2022-04-09 11:56:51'),(12,12,3,2,5,6,3,'2022-04-09 12:02:26'),(13,13,2,5,3,5,1,'2022-04-09 13:10:15'),(14,15,4,4,3,5,4,'2022-04-12 09:17:32'),(15,16,2,4,3,6,4,'2022-04-12 09:33:45'),(16,17,2,2,1,3,3,'2022-04-13 11:51:42'),(17,18,2,4,3,6,5,'2022-04-13 13:06:12'),(18,21,1,2,5,2,3,'2022-04-13 13:11:46'),(19,25,4,5,4,6,4,'2022-04-15 09:18:23');
+INSERT INTO `users_avatars` VALUES (3,1,2,2,2,2,2,'2022-04-05 12:41:52'),(4,4,1,1,2,2,2,'2022-04-05 15:38:07'),(5,5,2,2,2,2,2,'2022-04-05 16:12:30'),(6,6,2,2,2,2,2,'2022-04-05 16:47:28'),(7,7,2,2,2,2,2,'2022-04-06 09:08:28'),(8,8,1,2,1,2,1,'2022-04-06 16:07:44'),(9,9,2,1,1,1,1,'2022-04-06 16:08:31'),(10,10,2,2,2,2,2,'2022-04-06 16:09:43'),(11,11,4,4,5,5,4,'2022-04-09 11:56:51'),(12,12,3,2,5,6,3,'2022-04-09 12:02:26'),(13,13,2,5,3,5,1,'2022-04-09 13:10:15'),(14,15,4,4,3,5,4,'2022-04-12 09:17:32'),(15,16,2,4,3,6,4,'2022-04-12 09:33:45'),(16,17,2,2,1,3,3,'2022-04-13 11:51:42'),(17,18,2,4,3,6,5,'2022-04-13 13:06:12'),(18,21,1,2,5,2,3,'2022-04-13 13:11:46'),(19,25,4,5,4,6,4,'2022-04-15 09:18:23'),(20,26,2,3,4,5,4,'2022-04-19 10:58:54'),(21,27,3,2,5,5,2,'2022-04-19 10:59:51');
 /*!40000 ALTER TABLE `users_avatars` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -119,10 +119,11 @@ CREATE TABLE `users_rates` (
   `device_os` varchar(355) DEFAULT NULL,
   `device_browser` varchar(355) DEFAULT NULL,
   `device_type` varchar(355) DEFAULT NULL,
-  `comments` text,
+  `like_most` text,
+  `rather_change` text,
   `device` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -131,7 +132,7 @@ CREATE TABLE `users_rates` (
 
 LOCK TABLES `users_rates` WRITE;
 /*!40000 ALTER TABLE `users_rates` DISABLE KEYS */;
-INSERT INTO `users_rates` VALUES (7,16,5,'sports',1,'2022-04-12 18:46:43',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','five stars !!',NULL),(8,16,3,'sports',1,'2022-04-12 18:49:18',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','tres estrellas','Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'),(9,16,4,'sports',1,'2022-04-12 18:53:53',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','cuatro estrellas que onda...','Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'),(10,1,4,'business',4,'2022-04-13 10:12:51',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','cuatro estrellas business dia 4','Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'),(11,1,3,'connect',3,'2022-04-13 10:19:50',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','TRES ESTRELLAS CONNECT DIA 3','Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1');
+INSERT INTO `users_rates` VALUES (7,16,5,'sports',1,'2022-04-12 18:46:43',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','five stars !!',NULL,NULL),(8,16,3,'sports',1,'2022-04-12 18:49:18',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','tres estrellas',NULL,'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'),(9,16,4,'sports',1,'2022-04-12 18:53:53',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','cuatro estrellas que onda...',NULL,'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'),(10,1,4,'business',4,'2022-04-13 10:12:51',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','cuatro estrellas business dia 4',NULL,'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'),(11,1,3,'connect',3,'2022-04-13 10:19:50',NULL,NULL,NULL,'iPhone',NULL,'MOBILE','TRES ESTRELLAS CONNECT DIA 3',NULL,'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1');
 /*!40000 ALTER TABLE `users_rates` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -144,4 +145,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-18  8:58:38
+-- Dump completed on 2022-04-19 16:03:30
