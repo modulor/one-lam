@@ -1,4 +1,13 @@
-<h5>WINNING OUR CONSUMERS, LIVE OUR CORE BELIEF.</h5>
+<h5 class="mb-4">E2E CONSUMER JOURNEY - INTRO & CONTEXT</h5>
 <p>
-  Our winning strategy is a consumer center one. Let's define our end to end consumer journey and solve problems together. We are changing lives through sports and sustainability, we could only win if we live our core belief ourselves.
+  INTRO & CONTEXT<br>
+  Date: April 27th<br>
+  Where: Ballroom<br>
+  Time: 09:00 - 10:00
+</p>
+<p>
+  INNOVATION SESSION<br>
+  Date: April 27th<br>
+  Where: Ballroom & Breakouts<br>
+  Time: 10:30 - 12:30
 </p>

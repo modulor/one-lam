@@ -1,4 +1,9 @@
-<h5>WINNING TROUGH CULTURE, WINNING IN LAM.</h5>
+<h5 class="mb-4">PANEL DISCUSSION</h5>
 <p>
-  There are several winners out there we can learn from. Let's learn from starts up! We are ready to win, how can you land WINNING IN LAM?
+  LEARNING FROM START UPS WINNING THROUGH CULTURE
+</p>
+<p>
+  Date: April 28th<br>
+  Where: Ballroom<br>
+  Time: 09:00 - 10:00"
 </p>
