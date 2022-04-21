@@ -40,7 +40,7 @@
         </button>
       </div>
       <div class="col-4 text-center">
-        <img src="<?php echo base_url('assets/images/logo-one-lam.png') ?>" width="110" alt="one lam">
+        <a href="<?php echo base_url('landing') ?>"><img src="<?php echo base_url('assets/images/logo-one-lam.png') ?>" width="110" alt="one lam"></a>
       </div>
       <div class="col-4 text-end">
         <div class="user-avatar">
