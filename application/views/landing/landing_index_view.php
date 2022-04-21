@@ -64,15 +64,15 @@
         <p>Discover how to add the website to your homescreen phone and get all the information instantly:</p>
         <p>iOS</p>
         <ol>
-          <li>Lorem ipsum dolor</li>
-          <li>Lorem ipsum dolor</li>
-          <li>Lorem ipsum dolor</li>
+          <li>Get to onelam2022.com on your favorite browser</li>
+          <li>Clic on "share" button</li>
+          <li>Clic on "Add to home screen" and save it as "ONE LAM 2022"</li>
         </ol>
         <p>Android</p>
         <ol>
-          <li>Lorem ipsum dolor</li>
-          <li>Lorem ipsum dolor</li>
-          <li>Lorem ipsum dolor</li>
+          <li>Get to onelam2022.com on your favorite browser</li>
+          <li>Clic on the "options" button</li>
+          <li>Clic on "Add to Home Screen"</li>
         </ol>
       </div>
       <div class="modal-footer">
