@@ -1,11 +1,12 @@
+<h4>MONDAY APRIL 25<sup><small>TH</small></sup></h4>
+<h6>KICKING OFF WINNING IN LAM</h6>
 <table class="schedule-table">
   <tr>
-    <td></td>
+    <td>TIME</td>
     <td>
-      <h4>MONDAY APRIL 25<sup><small>TH</small></sup></h4>
-      <h6>KICKING OFF WINNING IN LAM</h6>
+      SESSION
     </td>
-    <td></td>
+    <td>WHERE?</td>
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-14-px text-start">
