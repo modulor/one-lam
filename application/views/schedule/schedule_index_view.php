@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <div class="card">
-          <div class="card-body pt-2 schedule-card-body">
+        <div class="card mb-4">
+          <div class="card-body pt-2">
             <h1 class="schedule-index-title">Winners Agenda</h1>
             <div class="row">
               <div class="col-md-2 d-none d-sm-block">
