@@ -23,7 +23,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       08:00 - 09:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-pink">
       <h6 class="m-0">CULTURE BREAKFAST CHAT</h6>
     </td>
     <td class="schedule-bg-gray schedule-font-14-px">CITRUS PATTIO</td>
@@ -32,7 +32,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       09:00 - 10:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-gray">
       <h6 class="m-0">
         E2E CONSUMER JOURNEY <span class="font-paragraphs">- INTRO & CONTEXT</span><br>
         <span class="font-paragraphs">WINNING OUR CONSUMERS</span>
@@ -46,7 +46,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       10:00 - 10:30
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-orange">
       <h6 class="m-0">BREAK</h6>
     </td>
     <td class="schedule-bg-gray schedule-font-14-px"></td>
@@ -55,7 +55,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       10:30 - 12:30
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-gray">
       <h6 class="m-0">
         E2E CONSUMER JOURNEY <span class="font-paragraphs">- INNOVATION SESSION</span><br>
         <span class="font-paragraphs">WINNING OUR CONSUMERS</span>
@@ -67,7 +67,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       12:30 - 14:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-orange">
       <h6 class="m-0">
         LUNCH
       </h6>
@@ -78,7 +78,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       14:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-gray">
       <h6 class="m-0">
         PURPOSE <span class="font-paragraphs">- KICK OFF</span><br>
         IMPACTING LIVES
@@ -92,7 +92,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       14:30
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-orange">
       <h6 class="m-0">
         TRANSPORTATION <span class="font-paragraphs">TO ACTIVITY</span>
       </h6>
@@ -105,7 +105,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       15:00 - 18:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-grey">
       <h6 class="m-0">
         PURPOSE <span class="font-paragraphs">- ACTIVITY</span><br>
         IMPACTING LIVES
@@ -119,7 +119,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       18:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-orange">
       <h6 class="m-0">
         TRANSPORTATION <span class="font-paragraphs">TO HOTEL</span>
       </h6>
@@ -132,7 +132,7 @@
     <td class="schedule-bg-gray schedule-font-14-px text-start">
       FROM 18:00
     </td>
-    <td class="schedule-bg-green">
+    <td class="schedule-bg-orange">
       <h6 class="m-0">
         FREE TIME <span class="font-paragraphs">- NO DINNER PLANNED</span>
       </h6>
