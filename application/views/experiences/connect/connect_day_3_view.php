@@ -1,4 +1,7 @@
-<h5>NOCHE MEXICANA</h5>
+<h5 class="mb-4">PURPOSE<br>ACTIVITY</h5>
+<p>THROUGH SPORTS WE HAVE THE POWER TO CHANGE LIVES</p>
 <p>
-  ¡Viva la fiesta! we want you to celebrate like mexican winners do. Enjoy tonights party with food, music, and more!
+  Date: April 27th<br>
+  Where: offsite<br>
+  Time: 15:00 - 18:00
 </p>
