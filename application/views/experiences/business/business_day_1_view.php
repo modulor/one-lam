@@ -1,4 +1,7 @@
-<h5>WINNING IN LAM</h5>
+<h5>WELCOME & OPENING<br>WINNING IN LAM</h5>
 <p>
-  In order to win in LAM we have to break through our achievements and challenges. How will we inspire around the power of culture? How do we keep what is good and add new elements?
+  Date: April 25th<br>
+  Where: Ballroom<br>
+  Time: 09:30 - 10:30<br>
+  11:00 - 12:30
 </p>

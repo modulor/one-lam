@@ -1,10 +1,11 @@
-<h5>YOGA TRAINING</h5>
+<h5 class="mb-4">MORNING SPORT</h5>
+<h6>YOGA TRAINING</h6>
 <p>
   In order to win, we need to connect with ourselves to fin our balance.
 </p>
-<h5>RUNNING TRAINING</h5>
+<h6>RUNNING TRAINING</h6>
 <p>We know you never run from a challenge, join us! Let's run together!</p>
-<h5>GYM TRAINING</h5>
+<h6>GYM TRAINING</h6>
 <p>A winner needs strengths and endurance, pushing through all challenges.<br>
   Join us for a quick morning workout.</p>
 
