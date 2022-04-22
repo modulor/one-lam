@@ -249,21 +249,6 @@ main.bg-extras {
   font-family: "adineue PRO Bold" !important;
 }
 
-.extras-photos,
-.extras-archives {
-  background-repeat: no-repeat;
-  background-size: 110px;
-  padding: 45px 0 60px 30px;
-}
-
-.extras-photos {
-  background-image: url("../images/register-pink-form.png");
-}
-
-.extras-archives {
-  background-image: url("../images/login-yellow-form.png");
-}
-
 a.extras-link,
 a.extras-link:hover {
   color: black;
@@ -339,9 +324,39 @@ a.extras-link:hover {
     height: 91vh;
     width: 100%;
   }
+
+  .extras-photos,
+  .extras-archives {
+    background-repeat: no-repeat;
+    background-size: 110px;
+    padding: 45px 0 85px 30px;
+  }
+
+  .extras-photos {
+    background-image: url("../images/register-pink-form.png");
+  }
+
+  .extras-archives {
+    background-image: url("../images/login-yellow-form.png");
+  }
 }
 
 @media (min-width: 1199px) {
+  .extras-photos,
+  .extras-archives {
+    background-repeat: no-repeat;
+    background-size: 110px;
+    padding: 45px 0 85px 30px;
+  }
+
+  .extras-photos {
+    background-image: url("../images/register-pink-form.png");
+  }
+
+  .extras-archives {
+    background-image: url("../images/login-yellow-form.png");
+  }
+
   .bg-experiences-sports {
     background-image: url("../images/bg/bg-more-desktop.jpeg");
     width: 100%;
