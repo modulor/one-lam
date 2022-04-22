@@ -19,7 +19,7 @@
                 <p><small>Get personalized attention through Whatsapp</small></p>
               </div>
               <div class="col-6 text-center">
-                <a href="<?php echo base_url('more') ?>">
+                <a href="https://open.spotify.com/playlist/2sYqT44fcKLdIA0pBYnqE9?si=45KwhssmS1-zfW8Wnaqy4g" target="_blank">
                   <img src="<?php echo base_url('assets/images/icon-spotify.png') ?>" alt="whatsapp" width="64">
                 </a>
                 <p><small>Win win<br>Rock You!</small></p>
