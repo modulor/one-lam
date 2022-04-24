@@ -13,7 +13,7 @@
             </div>
             <div class="row">
               <div class="col-6 text-center">
-                <a href="https://api.whatsapp.com/send/?phone=5215592259652&text&app_absent=0" target="_blank">
+                <a href="https://api.whatsapp.com/send/?phone=5215592256952&text&app_absent=0" target="_blank">
                   <img src="<?php echo base_url('assets/images/icon-whatsapp.png') ?>" alt="whatsapp" width="64">
                 </a>
                 <p><small>Get personalized attention through Whatsapp</small></p>
