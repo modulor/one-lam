@@ -8,6 +8,9 @@ class Landing extends CI_Controller
 
     if (!$this->session->userdata('login'))
       redirect(base_url('login'));
+
+    if (!$this->session->userdata('avatar'))
+      redirect(base_url('avatar/customize'), 'refresh');
   }
 
   public function index()

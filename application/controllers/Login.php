@@ -38,11 +38,17 @@ class Login extends CI_Controller
   {
     if ($this->is_login_form_valid()) {
       $login = $this->validate_login_credentials($this->input->post());
+      $this->session->set_userdata($login);
 
-      if ($login['success'])
-        $this->grant_access_to_application($login);
-      else
-        $this->display_error_access_not_allowed($login);
+      if (!$login['avatar']) {
+        $this->go_to_avatar_creation();
+      } else {
+        if ($login['success']) {
+          $this->grant_access_to_application($login);
+        } else {
+          $this->display_error_access_not_allowed($login);
+        }
+      }
     } else {
       $data['error_message'] = 'Por favor ingrese un correo o alias';
       $this->load->view('login/login_view', $data);
@@ -116,8 +122,6 @@ class Login extends CI_Controller
 
   private function grant_access_to_application($login)
   {
-    $this->session->set_userdata($login);
-
     redirect(base_url('landing/welcome'), 'refresh');
   }
 
@@ -126,5 +130,10 @@ class Login extends CI_Controller
     $data['error_message'] = $login['message'];
 
     $this->load->view('login/login_view', $data);
+  }
+
+  private function go_to_avatar_creation()
+  {
+    redirect(base_url('avatar/customize'), 'refresh');
   }
 }
