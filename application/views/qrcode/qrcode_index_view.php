@@ -13,9 +13,12 @@
 </head>
 
 <body>
-  <div class="mt-5 text-center">
-    <h1>ONE LAM CONFERENCE</h1>
-    <h3>LET'S WIN</h3>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <img src="<?php echo base_url('assets/images/qr-25-abr.jpeg') ?>" alt="qr" class="img-fluid">
+      </div>
+    </div>
   </div>
 </body>
 

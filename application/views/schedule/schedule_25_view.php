@@ -10,14 +10,14 @@
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-14-px text-start">
-      07:30 - 08:30
+      07:15 - 08:30
     </td>
     <td class="schedule-bg-green">
       <h6 class="m-0">MORNING WORKOUT</h6>
       RUMBA HIIT SESSION
     </td>
     <td class="schedule-bg-gray schedule-font-14-px">
-      CITRUS PATTIO
+      LOBBY
     </td>
   </tr>
   <tr>

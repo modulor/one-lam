@@ -21,7 +21,7 @@
                 <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right" class="me-4">
               </div>
               <div class="col-9 col-md-10">
-                <a href="<?php echo base_url('extras') ?>" class="extras-link">
+                <a href="<?php echo base_url('extras/files') ?>" class="extras-link">
                   Files
                 </a>
               </div>

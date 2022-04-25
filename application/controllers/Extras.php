@@ -18,4 +18,13 @@ class Extras extends CI_Controller
 
     $this->load->view('landing/landing_view', $data);
   }
+
+  public function files()
+  {
+    $data = array(
+      'view' => 'extras/extras_files_view',
+    );
+
+    $this->load->view('landing/landing_view', $data);
+  }
 }
