@@ -256,6 +256,11 @@ a.extras-link:hover {
   font-size: 32px;
 }
 
+.gallery-area {
+  overflow-y: scroll;
+  height: 500px;
+}
+
 /*  */
 
 @media screen and (max-height: 450px) {
