@@ -47,4 +47,32 @@ class Dashboard extends CI_Controller
       'badge' => "{$path}badge/badge-856px-{$avatar->badge}.png",
     );
   }
+
+  public function add_email()
+  {
+    if ($this->input->post()) {
+      $this->add_email_to_users_allowed();
+      $data['ok'] = true;
+    }
+
+    $this->load->model('Users_allowed_model');
+
+    $data['users_allowed'] = $this->Users_allowed_model->get_all();
+
+    $this->load->view('dashboard/dashboard_add_email_view', $data);
+  }
+
+  private function add_email_to_users_allowed()
+  {
+    $data = array(
+      'email' => trim($_POST['email']),
+      'firstname' => $_POST['firstname'],
+      'lastname' => $_POST['lastname'],
+      'position' => $_POST['position'],
+    );
+
+    $this->load->model('Users_allowed_model');
+
+    $this->Users_allowed_model->create($data);
+  }
 }

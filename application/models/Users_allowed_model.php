@@ -8,4 +8,14 @@ class Users_allowed_model extends CI_Model
   {
     return $this->db->where('email', $email)->get($this->table)->row();
   }
+
+  public function create($data)
+  {
+    $this->db->insert($this->table, $data);
+  }
+
+  public function get_all()
+  {
+    return $this->db->order_by('email')->get($this->table)->result();
+  }
 }
