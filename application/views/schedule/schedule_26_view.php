@@ -139,7 +139,7 @@
       </h6>
     </td>
     <td class="schedule-bg-gray schedule-font-14-px">
-
+      ROOM 301
     </td>
   </tr>
   <tr>
