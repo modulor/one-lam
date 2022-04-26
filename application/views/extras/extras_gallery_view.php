@@ -9,7 +9,7 @@
               <div class="col-md-2 d-none d-sm-block">
                 <div class="d-grid gap-2 mb-4">
                   <a href="<?php echo base_url('extras/gallery/24') ?>" class="btn <?php echo $day == 24 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
-                    <span class="schedule-date">25</span><br>
+                    <span class="schedule-date">24</span><br>
                     April
                   </a>
                 </div>
@@ -42,7 +42,7 @@
               <div class="col-3 d-block d-sm-none">
                 <div class="d-grid gap-2">
                   <a href="<?php echo base_url('extras/gallery/24') ?>" class="btn <?php echo $day == 24 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
-                    <span class="schedule-date">25</span><br>
+                    <span class="schedule-date">24</span><br>
                     April
                   </a>
                 </div>
