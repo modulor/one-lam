@@ -1,4 +1,4 @@
-<div class="gallery-area">
+<div class="gallery-area mb-4">
   <div class="container">
     <div class="row">
       <div class="col-4 col-md-3 mb-2">
