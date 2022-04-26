@@ -9,7 +9,7 @@
                 <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right">
               </div>
               <div class="col-9 col-md-10">
-                <a href="<?php echo base_url('schedule/day/25') ?>" class="btn btn-link btn-link-landing-index">
+                <a href="<?php echo base_url('schedule/day/26') ?>" class="btn btn-link btn-link-landing-index">
                   Winners agenda
                 </a>
               </div>

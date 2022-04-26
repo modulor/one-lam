@@ -5,6 +5,13 @@
         <div class="card-body pt-5 extras-card-body">
           <div class="row mb-3">
             <div class="col-md-12">
+              <a href="<?php echo base_url('downloads/files/fck-up-night.zip') ?>" target="_blank">
+                F#çk up Nigth!
+              </a>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-12">
               <a href="<?php echo base_url('downloads/files/CONSUMER_SESSION_1_UNPACKING_GEN_Z.zip') ?>" target="_blank">
                 CONSUMER SESSION (1) _UNPACKING GEN Z
               </a>

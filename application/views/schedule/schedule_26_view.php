@@ -144,7 +144,7 @@
   </tr>
   <tr>
     <td class="schedule-bg-gray schedule-font-14-px text-start">
-      FROM 19:00
+      FROM 19:30
     </td>
     <td class="schedule-bg-orange">
       <h6 class="m-0">

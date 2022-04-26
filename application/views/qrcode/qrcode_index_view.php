@@ -16,7 +16,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <img src="<?php echo base_url('assets/images/qr-25-abr.jpeg') ?>" alt="qr" class="img-fluid">
+        <img src="<?php echo base_url('assets/images/qr-26-abr.jpeg') ?>" alt="qr" class="img-fluid">
       </div>
     </div>
   </div>
