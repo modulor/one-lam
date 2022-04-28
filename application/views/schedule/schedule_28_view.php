@@ -17,7 +17,7 @@
       RUNNING, YOGA, HIIT
     </td>
     <td class="schedule-bg-gray schedule-font-14-px">
-      ACROSS VENUE
+      LOBBY
     </td>
   </tr>
   <tr>
