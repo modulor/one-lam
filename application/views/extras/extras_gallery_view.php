@@ -25,12 +25,12 @@
                     April
                   </a>
                 </div>
-                <!-- <div class="d-grid gap-2 mb-4">
-                  <a href="<?php echo base_url('extras/gallery/28') ?>" class="btn <?php echo $day == 28 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
-                    <span class="schedule-date">28</span><br>
+                <div class="d-grid gap-2 mb-4">
+                  <a href="<?php echo base_url('extras/gallery/27') ?>" class="btn <?php echo $day == 27 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
+                    <span class="schedule-date">27</span><br>
                     April
                   </a>
-                </div> -->
+                </div>
               </div>
               <div class="col-12 col-md-10">
                 <?php
@@ -64,12 +64,12 @@
                 </div>
               </div>
               <div class="col-3 d-block d-sm-none">
-                <!-- <div class="d-grid gap-2">
-                  <a href="<?php echo base_url('extras/gallery/28') ?>" class="btn <?php echo $day == 28 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
-                    <span class="schedule-date">28</span><br>
+                <div class="d-grid gap-2">
+                  <a href="<?php echo base_url('extras/gallery/27') ?>" class="btn <?php echo $day == 27 ? $button_classes['button_selected'] : $button_classes['button_normal'] ?>">
+                    <span class="schedule-date">27</span><br>
                     April
                   </a>
-                </div> -->
+                </div>
               </div>
             </div>
           </div>
