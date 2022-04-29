@@ -29,13 +29,13 @@
     </div>
     <div class="collapse" id="experience-collapse">
       <div class="p-4">
-        <a href="<?php echo base_url('experiences/view/sports/1') ?>" class="link-submenu">
+        <a href="<?php echo base_url('experiences/view/sports/4') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Sports
         </a>
-        <a href="<?php echo base_url('experiences/view/business/1') ?>" class="link-submenu">
+        <a href="<?php echo base_url('experiences/view/business/4') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Business
         </a>
-        <a href="<?php echo base_url('experiences/view/connect/1') ?>" class="link-submenu">
+        <a href="<?php echo base_url('experiences/view/connect/4') ?>" class="link-submenu">
           <img src="<?php echo base_url('assets/images/arrow-right.png') ?>" alt="arrow right"> Connect
         </a>
       </div>
